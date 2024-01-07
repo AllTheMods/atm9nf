@@ -727,8 +727,15 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "6079AAFD9940B53C"
-				item: "minecraft:crafting_table"
+				id: "01A7709155C7564E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:workbenches"
+					}
+				}
+				title: "Crafting Table"
 				type: "item"
 			}]
 			title: "Putting the Craft in Minecraft"
