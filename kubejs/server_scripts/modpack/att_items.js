@@ -3,10 +3,10 @@ ServerEvents.recipes(event => {
   event.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
     C: 'mysticalagradditions:dragon_scale',
     D: 'occultism:soul_gem',
-    A: 'ends_delight:non_hatchable_dragon_egg',
-    S: [Item.of('blue_skies:poison_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:poison_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
+    A: 'twilightforest:ur_ghast_trophy',
+    S: 'twilightforest:snow_queen_trophy',
     N: 'allthemodium:piglich_heart_block',
-    I: [Item.of('blue_skies:nature_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:nature_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
+    I: 'twilightforest:lich_trophy',
     B: 'botania:life_essence',
 	G: 'productivebees:inactive_dragon_egg',
     E: 'ars_nouveau:summon_focus'
