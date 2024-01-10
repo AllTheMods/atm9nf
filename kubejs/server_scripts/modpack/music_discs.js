@@ -34,32 +34,6 @@ ServerEvents.recipes(e => {
         D: 'botania:black_petal'
     }).id('kubejs:botania/record_gaia_2')
 */
-    //Blue skies
-    e.shaped('blue_skies:blinding_rage',['MC','SD'],{
-        M: 'mysticalagriculture:blank_record',
-        C: 'blue_skies:aquite',
-        S: 'minecraft:gray_dye',
-        D: 'minecraft:blue_dye'
-    }).id('kubejs:blue_skies/blinding_rage')
-    e.shaped('blue_skies:defying_starlight',['MC','SD'],{
-        M: 'mysticalagriculture:blank_record',
-        C: 'blue_skies:aquite',
-        S: 'minecraft:green_dye',
-        D: 'minecraft:yellow_dye'
-    }).id('kubejs:blue_skies/defying_starlight')
-    e.shaped('blue_skies:venomous_encounter',['MC','SD'],{
-        M: 'mysticalagriculture:blank_record',
-        C: 'blue_skies:aquite',
-        S: 'minecraft:magenta_dye',
-        D: 'minecraft:purple_dye'
-    }).id('kubejs:blue_skies/venomous_encounter')
-    e.shaped('blue_skies:population',['MC','SD'],{
-        M: 'mysticalagriculture:blank_record',
-        C: 'blue_skies:aquite',
-        S: 'minecraft:cyan_dye',
-        D: 'minecraft:magenta_dye'
-    }).id('kubejs:blue_skies/population')
-
     //Twilight
     e.shaped('twilightforest:music_disc_radiance',['MC','SD'],{
         M: 'mysticalagriculture:blank_record',
