@@ -356,18 +356,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "gtceu:block/overlay/machine/overlay_pipe_out"
-			rotation: 0.0d
-			width: 3.0d
-			x: 16.0d
-			y: 1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 8.0d
 			hover: [ ]
 			image: "atm:textures/questpics/gettingstarted/confused1.png"

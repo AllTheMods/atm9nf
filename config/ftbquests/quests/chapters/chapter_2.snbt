@@ -1541,11 +1541,6 @@
 					item: "minecraft:dragon_egg"
 					type: "item"
 				}
-				{
-					id: "4B34B0C3998AFE57"
-					item: "ends_delight:dragon_tooth"
-					type: "item"
-				}
 			]
 			title: "&dPieces of the Ender Dragon&r"
 			x: -1.5d
@@ -2275,13 +2270,7 @@
 				"This Pyramid houses the strongest mob in ATM, the &5Piglich&r. You'll need to find a way to defeat them and gather their &6Piglich Hearts&r to make the best alloys in the pack!"
 			]
 			hide_dependency_lines: false
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "rechiseled:block/basalt_chiseled_piglin"
-				}
-			}
+			icon: "allthemodium:piglich_heart"
 			id: "1149F92182DC2A54"
 			rewards: [
 				{
