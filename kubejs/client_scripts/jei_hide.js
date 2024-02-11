@@ -7,6 +7,7 @@ JEIEvents.hideItems(event => {
   event.hide('reliquary:rod_of_lyssa')
   event.hide('mekanism:upgrade_anchor')
   event.hide('ars_nouveau:glyph_animate_block')
+  event.hide('allthetweaks:greg_star')
   event.hide([
     'absentbydesign:slab_tuff',
     'absentbydesign:stairs_tuff',
