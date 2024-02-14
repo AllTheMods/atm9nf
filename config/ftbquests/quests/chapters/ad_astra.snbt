@@ -40,18 +40,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 7.0d
-			hover: [ ]
-			image: "sgjourney:textures/environment/galaxy.png"
-			rotation: 0.0d
-			width: 7.0d
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "ad_astra:textures/painting/earth.png"
@@ -1090,5 +1078,5 @@
 			y: 5.5d
 		}
 	]
-	title: "Ad Astra"
+	title: "{atm9.chapters.40.title}"
 }

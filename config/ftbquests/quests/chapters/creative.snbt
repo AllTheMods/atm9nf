@@ -175,7 +175,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.25d
+			y: 2.0d
 		}
 		{
 			dependencies: ["464D0C17601E8A2B"]
@@ -410,9 +410,68 @@
 				type: "item"
 			}]
 			title: "But...why?"
-			x: 0.0d
-			y: 4.5d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			id: "39BD43AAEFBD5609"
+			optional: true
+			rewards: [
+				{
+					id: "0F1BEDEC9A4A479D"
+					type: "xp_levels"
+					xp_levels: 50000
+				}
+				{
+					id: "58A1003D401A788F"
+					item: {
+						Count: 1b
+						id: "gtceu:neutronium_plunger"
+						tag: {
+							Damage: 0
+							Modifier: "forbidden_arcanus:eternal"
+							Repair: 1b
+							affix_data: {
+								affixes: {
+									"apotheosis:durable": 0.72f
+									"apotheosis:sword/attribute/elongated": 0.7710993f
+									"apotheosis:sword/attribute/graceful": 0.558723f
+									"apotheosis:sword/attribute/piercing": 0.29312527f
+									"apotheosis:sword/attribute/vampiric": 0.6328511f
+									"apotheosis:sword/attribute/violent": 0.5002012f
+									"apotheosis:sword/mob_effect/weakening": 0.23670322f
+									"apotheosis:sword/special/festive": 0.21254015f
+									"apotheosis:telepathic": 0.7339784f
+								}
+								name: "{\"color\":\"rainbow\",\"translate\":\"%2$s\",\"with\":[\"\",\"\"]}"
+								rarity: "apotheosis:ancient"
+								sockets: 5
+								uuids: [[I;
+									1016258682
+									1487751026
+									-1587067522
+									1554397544
+								]]
+							}
+							display: {
+								Name: "{\"text\":\"Jebraltar's Neutronium Plunger of Pain\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Would Greg Be Proud?"
+			tasks: [{
+				id: "45119551D2C9EE55"
+				item: "allthetweaks:greg_star"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
 		}
 	]
-	title: "&aChapter 3&r: &dCreative "
+	title: "{atm9.chapters.7.title}"
 }
