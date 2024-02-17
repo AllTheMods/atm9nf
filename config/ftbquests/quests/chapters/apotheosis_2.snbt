@@ -252,7 +252,7 @@
 			id: "6F71FD826C29C31A"
 			rewards: [{
 				id: "1532FF56C99CAB89"
-				item: "aquaculture:box_turtle"
+				item: "mysticalagriculture:turtle_seeds"
 				type: "item"
 			}]
 			tasks: [{

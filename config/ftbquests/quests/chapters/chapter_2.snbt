@@ -1541,11 +1541,6 @@
 					item: "minecraft:dragon_egg"
 					type: "item"
 				}
-				{
-					id: "4B34B0C3998AFE57"
-					item: "ends_delight:dragon_tooth"
-					type: "item"
-				}
 			]
 			title: "&dPieces of the Ender Dragon&r"
 			x: -1.5d

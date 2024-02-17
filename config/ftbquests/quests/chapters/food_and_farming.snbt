@@ -63,8 +63,8 @@
 			image: "minecraft:textures/block/birch_sapling.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.0d
-			y: 3.5d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			click: ""
@@ -125,18 +125,6 @@
 			width: 1.0d
 			x: 4.5d
 			y: -1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "aquaculture:textures/item/catfish.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.0d
-			y: 4.0d
 		}
 		{
 			click: ""
@@ -987,126 +975,6 @@
 			title: "The Start of a Fisher"
 			x: -1.57d
 			y: 4.0d
-		}
-		{
-			dependencies: ["1DCAA0310AA55F1C"]
-			id: "16D0F1E3CEB60ABF"
-			rewards: [
-				{
-					id: "03247C933128C015"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1AD805EF5C994DC3"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "13E86D23DA98D8E9"
-				item: {
-					Count: 1b
-					id: "aquaculture:iron_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["16D0F1E3CEB60ABF"]
-			id: "0A64D0937A5F7513"
-			rewards: [
-				{
-					id: "7664E2CF599F9E96"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F864C7AA00CC8A9"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "144B351F77F0B08F"
-				item: {
-					Count: 1b
-					id: "aquaculture:gold_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0A64D0937A5F7513"]
-			id: "511562EA5811306B"
-			rewards: [
-				{
-					id: "3F6CD2A029F5FC11"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7DF9A8B80872B680"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "3FECA1F49F588499"
-				item: {
-					Count: 1b
-					id: "aquaculture:diamond_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["511562EA5811306B"]
-			id: "5A1DCD6C7F712A78"
-			rewards: [
-				{
-					id: "4000D1222D505757"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5A0D21935AEB18B1"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "31B52EAD7F931F31"
-				item: {
-					Count: 1b
-					id: "aquaculture:neptunium_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: 6.0d
 		}
 		{
 			dependencies: [
