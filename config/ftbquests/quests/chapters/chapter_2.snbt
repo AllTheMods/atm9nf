@@ -2272,9 +2272,11 @@
 			hide_dependency_lines: false
 			icon: {
 				Count: 1b
-				id: "ftbquests:custom_icon"
+				id: "hostilenetworks:data_model"
 				tag: {
-					Icon: "rechiseled:block/basalt_chiseled_piglin"
+					data_model: {
+						id: "hostilenetworks:allthemodium/piglich"
+					}
 				}
 			}
 			id: "1149F92182DC2A54"

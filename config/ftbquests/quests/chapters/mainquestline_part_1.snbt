@@ -2681,13 +2681,7 @@
 				""
 				"You might find some flying about while you are out adventuring! To get started with the mod, make sure to check out the &eProductive Bee&r questline!"
 			]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "productivebees:textures/advancements/all_bees.png"
-				}
-			}
+			icon: "productivebees:sugarbag_honeycomb"
 			id: "086A3E80E57D46BE"
 			rewards: [
 				{
