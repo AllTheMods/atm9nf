@@ -16,7 +16,9 @@ WorldgenEvents.remove(event => {
       "create:deepslate_zinc_ore",
       "occultism:silver_ore",
       "occultism:silver_ore_deepslate",
-      "bigreactors:yellorite_ore"
-    ];
-  });
-});
+      "bigreactors:yellorite_ore",
+      "immersiveengineering:ore_aluminum",
+      "immersiveengineering:deepslate_ore_aluminum"
+    ]
+  })
+})
