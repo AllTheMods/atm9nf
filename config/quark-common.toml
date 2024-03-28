@@ -14,7 +14,8 @@
 [tweaks]
 	"Automatic Recipe Unlock" = false
 	"Simple Harvest" = false
-		[tweaks.utility_recipes]
+
+	[tweaks.utility_recipes]
 		"Easy Sticks" = false
 
 [world]
@@ -22,11 +23,6 @@
 
 [client]
 	"Back Button Keybind" = false
-
-[tools]
-	Abacus = true
-	"Ambient Discs" = true
-	"Ancient Tomes" = false
 
 [building]
 	"Celebratory Lamps" = true
