@@ -86,6 +86,7 @@
 		}
 	]
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -1078,5 +1079,5 @@
 			y: 5.5d
 		}
 	]
-	title: "{atm9.chapters.40.title}"
+	title: "{atm9.chapters.45.title}"
 }

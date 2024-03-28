@@ -62,6 +62,7 @@
 		}
 	]
 	order_index: 4
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -2552,7 +2553,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Blazing + Leafcutter"
+			subtitle: "Magmatic + Leafcutter"
 			tasks: [{
 				icon: {
 					Count: 1b

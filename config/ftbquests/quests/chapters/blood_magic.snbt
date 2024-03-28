@@ -17,6 +17,7 @@
 		y: -1.5d
 	}]
 	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -1762,5 +1763,5 @@
 			y: -4.5d
 		}
 	]
-	title: "{atm9.chapters.35.title}"
+	title: "{atm9.chapters.40.title}"
 }

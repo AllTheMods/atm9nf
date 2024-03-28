@@ -17,10 +17,11 @@
 		y: 1.0d
 	}]
 	order_index: 3
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Easy item to automate infinite water. Need more water? Make another!"]
+			description: ["{atm9.quest.tips.desc.sink}"]
 			id: "722978AC0C1B2649"
 			rewards: [
 				{
@@ -34,18 +35,18 @@
 					xp: 10
 				}
 			]
-			subtitle: "Can be used as Reactor Coolant"
+			subtitle: "{atm9.quest.tips.subt.sink}"
 			tasks: [{
 				id: "6855AE257D62AA37"
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			title: "Infinite Water"
+			title: "{atm9.quest.tips.sink}"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
-			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
+			description: ["{atm9.quest.tips.desc.shrink}"]
 			id: "7EC8814940C4C3D7"
 			rewards: [
 				{
@@ -61,7 +62,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Honey I Shrunk Myself"
+			subtitle: "{atm9.quest.tips.subt.shrink}"
 			tasks: [{
 				id: "30C938C85BED7956"
 				item: {
@@ -71,17 +72,12 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.tips.shrink}"
 			x: 1.5d
 			y: 8.0d
 		}
 		{
-			description: [
-				"The sleeping bag lets you sleep during the night."
-				""
-				"The hammock lets you sleep during the day."
-				""
-				"Neither will reset your spawn-point."
-			]
+			description: ["{atm9.quest.tips.desc.sleep}"]
 			id: "14C8FC3F19190054"
 			rewards: [
 				{
@@ -96,7 +92,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "ZZZzzz..."
+			subtitle: "{atm9.quest.tips.subt.sleep}"
 			tasks: [
 				{
 					id: "51AA3A27028426C5"
@@ -253,16 +249,12 @@
 					type: "item"
 				}
 			]
-			title: "Comforts"
+			title: "{atm9.quest.tips.sleep}"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
-			description: [
-				"A quick way to switch between tools."
-				""
-				"Upgrade with belt pouches in an anvil to increase capacity."
-			]
+			description: ["{atm9.quest.tips.desc.belt}"]
 			id: "378C95C18798D413"
 			rewards: [
 				{
@@ -282,15 +274,12 @@
 				item: "toolbelt:belt"
 				type: "item"
 			}]
+			title: "{atm9.quest.tips.belt}"
 			x: 2.5d
 			y: 5.5d
 		}
 		{
-			description: [
-				"The mod &9Construction Wand&r adds helpful wands that are used when building."
-				""
-				"When right-clicking a face of a block with the wand, it will extend that face out as long as you have the blocks in your inventory."
-			]
+			description: ["{atm9.quest.tips.desc.wand}"]
 			id: "2A2E3D020B1F5126"
 			rewards: [{
 				id: "03F64743F4F59499"
@@ -341,7 +330,7 @@
 				title: "Construction Wands"
 				type: "item"
 			}]
-			title: "Building Wands"
+			title: "{atm9.quest.tips.wand}"
 			x: 0.5d
 			y: 8.0d
 		}
@@ -363,17 +352,17 @@
 				xp: 10
 			}]
 			shape: "circle"
-			subtitle: "Complete all of the tips!"
+			subtitle: "{atm9.quest.tips.subt.tipped_out}"
 			tasks: [{
 				id: "42DA8E971B27ACED"
 				type: "checkmark"
 			}]
-			title: "Tipped Out"
+			title: "{atm9.quest.tips.tipped_out}"
 			x: 1.0d
 			y: 5.5d
 		}
 		{
-			description: ["On this page, you'll find some useful items and info to help you on your journey!"]
+			description: ["{atm9.quest.tips.desc.tricks}"]
 			id: "0C856BBB1679A7DD"
 			rewards: [{
 				id: "5FA6EA3609ABF6BE"
@@ -382,21 +371,18 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "And Other Useful Items!"
+			subtitle: "{atm9.quest.tips.subt.tricks}"
 			tasks: [{
 				id: "3DC008A578A93CCF"
 				title: "Tips and Tricks!"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.tips.tricks}"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
-			description: [
-				"This is a simple magnet!"
-				""
-				"Pro tip: You can set a keybind to toggle this on and off!"
-			]
+			description: ["{atm9.quest.tips.desc.magnet}"]
 			id: "3FC002E5A6C08DCC"
 			rewards: [
 				{
@@ -411,7 +397,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "A Simple Magnet!"
+			subtitle: "{atm9.quest.tips.subt.magnet}"
 			tasks: [{
 				id: "27CB2988681DB62C"
 				item: {
@@ -435,15 +421,12 @@
 				title: "Simple Magnets"
 				type: "item"
 			}]
+			title: "{atm9.quest.tips.magnet}"
 			x: 1.0d
 			y: 7.5d
 		}
 		{
-			description: [
-				"Gives you a list of biomes you can search for."
-				""
-				"Select a biome, then hit \"Search.\" You'll see some info in the top left, and the compass will point in the direction of the biome."
-			]
+			description: ["{atm9.quest.tips.desc.compass}"]
 			id: "70B6C9409AE69284"
 			rewards: [
 				{
@@ -458,7 +441,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Helps Find Biomes"
+			subtitle: "{atm9.quest.tips.subt.compass}"
 			tasks: [{
 				id: "595B3FA9F32B712D"
 				item: {
@@ -468,15 +451,12 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.tips.compass}"
 			x: 1.0d
 			y: 8.5d
 		}
 		{
-			description: [
-				"When placed, the &9Mega Torch&r prevents all hostile mobs from naturally spawning in a 64 block radius."
-				""
-				"Great for stopping hostile spawns in dark parts of your base!"
-			]
+			description: ["{atm9.quest.tips.desc.mobs}"]
 			id: "05F186C95510BD4B"
 			rewards: [
 				{
@@ -496,16 +476,12 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			title: "Preventing Mob Spawns"
+			title: "{atm9.quest.tips.mobs}"
 			x: -1.0d
 			y: 5.0d
 		}
 		{
-			description: [
-				"The &9Experience Crystal&r allows you to store experience, either by giving it your levels, or pumping in experience from a tank."
-				""
-				"You can also transfer the experience stored to level yourself up with just a click of a button!"
-			]
+			description: ["{atm9.quest.tips.desc.exp}"]
 			id: "0060BCEDABC9BE2E"
 			rewards: [{
 				id: "57949E0DF2C7478A"
@@ -517,16 +493,12 @@
 				item: "utilitix:experience_crystal"
 				type: "item"
 			}]
-			title: "Storing Experience"
+			title: "{atm9.quest.tips.exp}"
 			x: -1.0d
 			y: 6.0d
 		}
 		{
-			description: [
-				"Need a portable crafting table? How about a portable smithing table?"
-				""
-				"&9Crafting On A Stick&r adds portable versions of some of your favorite crafting tables! This is a must have in the early game."
-			]
+			description: ["{atm9.quest.tips.desc.stick}"]
 			id: "0790D3BB481162A6"
 			rewards: [{
 				id: "2D7265C36210BDDB"
@@ -550,21 +522,12 @@
 					type: "item"
 				}
 			]
-			title: "Crafting..... on a Stick!"
+			title: "{atm9.quest.tips.stick}"
 			x: -0.5d
 			y: 5.5d
 		}
 		{
-			description: [
-				"Power Generation has had quite a bit of balancing!"
-				"Melon power is probably not the droid you were looking for!"
-				""
-				"Gas Burning Generators are only about 11% as strong as normal.  "
-				""
-				"To compensate, starting Powah generators have been buffed.  Extreme Reactors have been buffed.  The Mekanism Bio Generator has been buffed. Generators Galore has stronger starting generators too!"
-				""
-				"&8Just between you and me,  a Powah nitro thermo gen with soul lava next to it makes 31.5k rf/t and only consumes water, but you didn't hear it from me. &r"
-			]
+			description: ["{atm9.quest.tips.desc.powah}"]
 			icon: "mekanismgenerators:gas_burning_generator"
 			id: "437AF6A8A63413A8"
 			rewards: [{
@@ -572,26 +535,24 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Power??  POWAH!"
+			subtitle: "{atm9.quest.tips.subt.powah}"
 			tasks: [{
 				id: "2C621D97D1ED56DE"
 				title: "RF Generation"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.tips.powah}"
 			x: 5.5d
 			y: 6.0d
 		}
 		{
-			description: [
-				"&4Increasing Innate Cap requires throwing Ender Upgrade Orbs (83 max) in Mahou lake along with Caliburn&r"
-				"&5Converting Caliburn to Morgan requires killing Warden with Caliburn&r"
-			]
+			description: ["{atm9.quest.tips.desc.mahou}"]
 			icon: {
 				Count: 1b
 				ForgeCaps: {
 					Parent: {
-						MAHOUTSUKAI_ATTACK_CAP: 10000.0d
-						MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						MAHOUTSUKAI_ATTACK_CAP: 0.0d
+						MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
 					}
 				}
 				id: "mahoutsukai:morgan"
@@ -605,24 +566,18 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "ATM9 Mahou Changes"
+			subtitle: "{atm9.quest.tips.subt.mahou}"
 			tasks: [{
 				id: "655D747AB2AECCF2"
 				title: "Mahou Tsukai"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.tips.mahou}"
 			x: 5.0d
 			y: 5.5d
 		}
 		{
-			description: [
-				"&6Remove AI: &r&m&4Chorus Fruit&r&r Golden Apple"
-				"&6Ignore Players: &r&m&4Nether Star&r&r Conduit"
-				"&6Increase Entities: &rGhast Tears | Max &m&432&r&r 16"
-				"&6Increase Spawn Count: &r&m&4Fermented Spider’s Eye&r&r Piglich Heart | Max &m&416&r&r 8"
-				"&6Decrease Minimum Spawn Delay:&r &m&4Sugar&r&r AllTheModium Ingot | Min &m&420&r&r 100"
-				"&6Decrease Maximum Spawn Delay:&r &m&4Clock&r&r Unobtainium Ingot | Min &m&420&r&r 100"
-			]
+			description: ["{atm9.quest.tips.desc.spawner}"]
 			icon: "minecraft:spawner"
 			id: "600CFCF3612AEE9A"
 			min_width: 370
@@ -631,12 +586,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Apotheosis Spawner Changes"
+			subtitle: "{atm9.quest.tips.subt.spawner}"
 			tasks: [{
 				id: "30F1C1BC1AD18EA5"
 				title: "Apotheosis"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.tips.spawner}"
 			x: 5.5d
 			y: 5.0d
 		}
