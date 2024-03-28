@@ -1449,6 +1449,13 @@
 	"atm9.quest.cataclysm.desc.anvil": "The Mechanical Fusion Anvil will be needed to make the void and fused weapons. It places like a normal anvil but does not have durability.",
 	"atm9.quest.cataclysm.desc.VASW": "The Void Assault Shoulder Weapon (V.A.S.W.) is just like the Wither version but better. Now it only shoots Void Howitzers which will do more damage and cause void runes to come out of the ground in the area the Howitzer hit. Just at the cost of the long cooldown, but we've got time to wait. It can crafted by combining the WASW and a Void Core in the Mechanical Infusion Anvil.",
 	"atm9.quest.cataclysm.desc.VForge": "The Void Forge is not much different from the Infernal Forge. Same attack damage and speed, same pickaxe tier, just summons Void Runes when attacking. Can be crafted by combining an Infernal Forge and a Void Core in a Mechanical Fusion Anvil.",
+	"atm9.quest.cataclysm.desc.GoB": "The Gauntlet of Bulwark acts not as you'd assume. Instead of bringing mobs closer it pushes them away, when holding right click, and gives them Blazing Brand. Then when you release right click you'll do the normal charge. It's made by fusing the Gauntlet of Guard with a Bulwark of Flame in the Mechanical Fusion Anvil.",
+	
+	"atm9.quest.cataclysm.subt.sacrifice": "Waking up The Leviathan",
+	"atm9.quest.cataclysm.subt.necklace": "Resurecting an Ancient Remnant",
+	"atm9.quest.cataclysm.subt.star": "Powering The Harbringer",
+	"atm9.quest.cataclysm.subt.ashes": "Relighting the Ignis",
+	"atm9.quest.cataclysm.subt.witherite": "= Witherite",
 	"atm9.quest.cataclysm.subt.igntium": "Better than Netherite?!?!?!",
 	"atm9.quest.cataclysm.subt.gatling": "Straight outta Fallout",
 	"atm9.quest.cataclysm.subt.meat": "Straight outta Fallout 3 DLC The Pitt",
