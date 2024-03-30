@@ -813,7 +813,7 @@
 				""
 				"Next, we'll combine &bWater Vapor&r with the Sulfur Trioxide to make &2Sulfuric Acid&r."
 			]
-			icon: "gtceu:sulfur_dust"
+			icon: "thermal:sulfur_dust"
 			id: "31EEE2875595F315"
 			progression_mode: "linear"
 			rewards: [
