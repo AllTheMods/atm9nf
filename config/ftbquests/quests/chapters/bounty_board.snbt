@@ -18,6 +18,7 @@
 		y: -8.0d
 	}]
 	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -36,7 +37,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kill 5 Zombies"
+			subtitle: "{atm9.quest.bounty.subt.zombie}"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
@@ -45,7 +46,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "&l&9Overworld Bounty:&r&e Zombies"
+			title: "{atm9.quest.bounty.zombie}"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -161,7 +162,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kill 5 Skeles"
+			subtitle: "{atm9.quest.bounty.subt.skeleton}"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -170,7 +171,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "&l&9Overworld Bounty:&r&e Skeles"
+			title: "{atm9.quest.bounty.skeleton}"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -286,7 +287,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Creepers"
+			subtitle: "{atm9.quest.bounty.subt.creeper}"
 			tasks: [{
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
@@ -295,7 +296,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "&l&9Overworld Bounty:&r&e Creepers"
+			title: "{atm9.quest.bounty.creeper}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -398,9 +399,9 @@
 		}
 		{
 			description: [
-				"Here you'll find all of the rewards you can get by slaying enemies."
+				"{atm9.quest.bounty.desc.board1}"
 				""
-				"This page is a work in progress!"
+				"{atm9.quest.bounty.desc.board2}"
 			]
 			id: "41C0948CD9D50322"
 			rewards: [{
@@ -409,13 +410,13 @@
 				xp: 10
 			}]
 			size: 2.0d
-			subtitle: "Killing All The Things"
+			subtitle: "{atm9.quest.bounty.subt.board}"
 			tasks: [{
 				id: "3C380961550177C2"
 				title: "Bounty Board"
 				type: "checkmark"
 			}]
-			title: "The Bounty Board"
+			title: "{atm9.quest.bounty.board}"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -443,6 +444,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "{atm9.quest.bounty.dragon}"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -470,6 +472,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "{atm9.quest.bounty.wither}"
 			x: 3.0000000000000004d
 			y: 4.5d
 		}
@@ -497,6 +500,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "{atm9.quest.bounty.elder}"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -522,7 +526,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "This isn't even my final form."
+			subtitle: "{atm9.quest.bounty.subt.chimera}"
 			tasks: [{
 				entity: "ars_nouveau:wilden_boss"
 				icon: "ars_nouveau:wilden_tribute"
@@ -531,16 +535,17 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "{atm9.quest.bounty.chimera}"
 			x: 4.550000000000001d
 			y: 6.0d
 		}
 		{
 			description: [
-				"\"While making a lot of the questlines for the ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen."
+				"{atm9.quest.bounty.desc.trader1}"
 				""
-				"Take them out. All of them.\""
+				"{atm9.quest.bounty.desc.trader2}"
 				""
-				"- AlfredGG"
+				"{atm9.quest.bounty.desc.trader3}"
 			]
 			id: "0F55D0B4D5094EDB"
 			optional: true
@@ -578,7 +583,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "\"This is Personal\" - AlfredGG"
+			subtitle: "{atm9.quest.bounty.subt.trader}"
 			tasks: [
 				{
 					entity: "minecraft:wandering_trader"
@@ -597,7 +602,7 @@
 					value: 2L
 				}
 			]
-			title: "Kill the Trader Villager and His Annoying Llamas"
+			title: "{atm9.quest.bounty.trader}"
 			x: 3.0500000000000003d
 			y: 6.0d
 		}
@@ -617,7 +622,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Endermen"
+			subtitle: "{atm9.quest.bounty.subt.enderman}"
 			tasks: [{
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
@@ -626,6 +631,7 @@
 				type: "kill"
 				value: 5L
 			}]
+			title: "{atm9.quest.bounty.enderman}"
 			x: 10.0d
 			y: -0.5d
 		}
@@ -738,7 +744,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Spiders"
+			subtitle: "{atm9.quest.bounty.subt.spider}"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
@@ -746,7 +752,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "&l&9Overworld Bounty:&r&e Spiders"
+			title: "{atm9.quest.bounty.spider}"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -863,7 +869,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Blazes"
+			subtitle: "{atm9.quest.bounty.subt.blaze}"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_powder"
@@ -872,6 +878,7 @@
 				type: "kill"
 				value: 5L
 			}]
+			title: "{atm9.quest.bounty.blaze}"
 			x: 6.0d
 			y: -0.5d
 		}
@@ -988,7 +995,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Witches"
+			subtitle: "{atm9.quest.bounty.subt.witch}"
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
@@ -1003,6 +1010,7 @@
 				type: "kill"
 				value: 5L
 			}]
+			title: "{atm9.quest.bounty.witch}"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -1156,7 +1164,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kill 5 Wither Skeles"
+			subtitle: "{atm9.quest.bounty.subt.wither_skeleton}"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
@@ -1165,6 +1173,7 @@
 				type: "kill"
 				value: 5L
 			}]
+			title: "{atm9.quest.bounty.wither_skeleton}"
 			x: 8.0d
 			y: -0.5d
 		}
@@ -1295,6 +1304,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "{atm9.quest.bounty.warden}"
 			x: 1.5d
 			y: 6.0d
 		}

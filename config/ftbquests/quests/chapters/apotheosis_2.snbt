@@ -6,6 +6,7 @@
 	icon: "minecraft:spawner"
 	id: "0E81CBCD6B1D1895"
 	order_index: 1
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -252,7 +253,7 @@
 			id: "6F71FD826C29C31A"
 			rewards: [{
 				id: "1532FF56C99CAB89"
-				item: "mysticalagriculture:turtle_seeds"
+				item: "aquaculture:box_turtle"
 				type: "item"
 			}]
 			tasks: [{

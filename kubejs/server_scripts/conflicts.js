@@ -69,5 +69,41 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'extrastorage:part/storagepart_65536k_fluid' })
   event.remove({ id: 'extrastorage:part/storagepart_262144k_fluid' })
   event.remove({ id: 'extrastorage:part/storagepart_1048576k_fluid' })
-})
 
+  // Remove minecraft recipes, mods add better versions
+  event.remove({ id: 'minecraft:cake' })
+  event.remove({ id: 'minecraft:beehive' })
+
+  // quark's log to stick recipe, but botania safe
+  event.remove({id: 'enderio:stick'})
+  let logSticks = Ingredient.of('#minecraft:logs').subtract(Ingredient.of(['#botania:livingwood_logs', '#botania:dreamwood_logs']))
+  event.shaped('16x minecraft:stick', ['s', 's'], { s: logSticks }).id('kubejs:easy_sticks')
+
+  // duplicate abd and quark
+  let abdRemovals = [
+    'absentbydesign:slab_tuff',
+    'absentbydesign:stairs_tuff',
+    'absentbydesign:wall_tuff',
+    'absentbydesign:wall_calcite',
+    'absentbydesign:stairs_calcite',
+    'absentbydesign:slab_calcite'
+  ]
+  abdRemovals.forEach(removeId => {
+    event.remove({ id: removeId })
+  })
+
+  //Bugs/"incorrect things" Fixes
+  // Functional storage cheap drawers (1x technically conflicts with quark chest to vanilla chest)
+  event.remove({id: 'functionalstorage:oak_drawer_alternate_x1'})
+  event.remove({id: 'functionalstorage:oak_drawer_alternate_x2'})
+  event.remove({id: 'functionalstorage:oak_drawer_alternate_x4'})
+
+  // Incorrect ore smelting/blasting output, Supposed to be fixed in mc1.20 of DeeperDarker, not fixed in v1.2.1
+  event.remove({id: 'deeperdarker:raw_iron_from_blasting_gloomslate_iron_ore'})
+  event.remove({id: 'deeperdarker:raw_gold_from_blasting_gloomslate_gold_ore'})
+  event.remove({id: 'deeperdarker:raw_copper_from_blasting_gloomslate_copper_ore'})
+  event.remove({id: 'deeperdarker:raw_iron_from_smelting_gloomslate_iron_ore'})
+  event.remove({id: 'deeperdarker:raw_gold_from_smelting_gloomslate_gold_ore'})
+  event.remove({id: 'deeperdarker:raw_copper_from_smelting_gloomslate_copper_ore'})
+  
+})
