@@ -2,7 +2,7 @@ recipes:
   # Whether to generate Flawed and Chipped Gems for materials and recipes involving them.
   # Useful for mods like TerraFirmaCraft.
   # Default: false
-  generateLowQualityGems: true
+  generateLowQualityGems: false
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
   # Default: false
@@ -185,6 +185,10 @@ machines:
   # Makes nearly every GCYM Multiblock require blocks which set their maximum voltages.
   # Default: false
   enableTieredCasings: false
+
+  # Whether search for recipes asynchronously.
+  #  Default: true
+  asyncRecipeSearching: false
 
 client:
   # Whether or not to enable Emissive Textures for GregTech Machines.

@@ -1,3 +1,6 @@
+## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -592,12 +595,6 @@
 					type: "item"
 				}
 				{
-					count: 5L
-					id: "7DD85566E61EDA94"
-					item: "apotheosis:soul_touched_deepshelf"
-					type: "item"
-				}
-				{
 					count: 3L
 					id: "2E6B0A322132B9FC"
 					item: "apotheosis:rectifier_t3"
@@ -606,6 +603,12 @@
 				{
 					id: "78831B3CE3EE431C"
 					item: "apotheosis:treasure_shelf"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "00BB332C3BC31EF3"
+					item: "apotheosis:soul_touched_sculkshelf"
 					type: "item"
 				}
 			]
@@ -699,3 +702,6 @@
 	]
 	title: "{atm9.chapters.38.title}"
 }
+
+## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

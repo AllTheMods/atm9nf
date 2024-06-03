@@ -4,7 +4,6 @@
     "alltheores",
     "allthemodium",
     "kubejs",
-    "gtceu",
     "thermal",
     "mekanism",
     "create",
@@ -22,7 +21,8 @@
     "thermal_extra",
     "undergarden",
     "industrialforegoing",
-    "pneaumaticcraft"
+    "pneumaticcraft",
+    "eidolon"
   ],
   "stoneStrata": [
     "stone",

@@ -1,3 +1,6 @@
+## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -5,7 +8,8 @@
 	group: "752CDE464613A1ED"
 	icon: "cataclysm:the_incinerator"
 	id: "59395B6806F2A98A"
-	order_index: 1
+	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -949,8 +953,9 @@
 			icon: "cataclysm:the_prowler_spawn_egg"
 			id: "3459CAEB59CBD60E"
 			rewards: [{
-				id: "1DE2170C72D03AA5"
-				item: "cataclysm:emp"
+				count: 3
+				id: "01151EB7D6518750"
+				item: "minecraft:iron_block"
 				type: "item"
 			}]
 			tasks: [{
@@ -1253,3 +1258,6 @@
 	]
 	title: "{atm9.chapters.47.title}"
 }
+
+## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

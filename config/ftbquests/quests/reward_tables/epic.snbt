@@ -5,6 +5,7 @@
 	order_index: 15
 	rewards: [
 		{ item: "powah:thermo_generator_spirited" }
+		{ item: "tempad:he_who_remains_tempad" }
 		{
 			item: {
 				Count: 1b

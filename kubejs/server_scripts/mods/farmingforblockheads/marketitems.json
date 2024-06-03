@@ -89,16 +89,6 @@
 		"integrateddynamics": [
 			"integrateddynamics:menril_sapling"
 		],
-		"blue_skies": [
-			"blue_skies:frostbright_sapling",
-			"blue_skies:starlit_sapling",
-			"blue_skies:maple_sapling",
-			"blue_skies:comet_sapling",
-			"blue_skies:dusk_sapling",
-			"blue_skies:bluebright_sapling",
-			"blue_skies:lunar_sapling",
-			"blue_skies:crescent_fruit_sapling"
-		],
 		"deeperdarker": [
 			"deeperdarker:echo_sapling"
 		],
@@ -111,9 +101,6 @@
 		],
 		"forbidden_arcanus": [
 			"forbidden_arcanus:aurum_sapling"
-		],
-		"gtceu": [
-			"gtceu:rubber_sapling"
 		],
 		"caupona": [
 			"caupona:fig_sapling",
