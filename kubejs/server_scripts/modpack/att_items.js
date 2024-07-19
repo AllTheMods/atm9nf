@@ -3,17 +3,17 @@
 
 ServerEvents.recipes(allthemods => {
   // Dragon Soul
-  allthemods.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
+  allthemods.shaped('allthetweaks:dragon_soul', ['CDA', 'XNY', 'BGE'], {
     C: 'mysticalagradditions:dragon_scale',
     D: 'occultism:soul_gem',
-    A: 'twilightforest:ur_ghast_trophy',
-    S: 'twilightforest:snow_queen_trophy',
+    A: 'minecraft:dragon_egg',
     N: 'allthemodium:piglich_heart_block',
-    I: 'twilightforest:lich_trophy',
     B: 'botania:life_essence',
-    G: 'productivebees:inactive_dragon_egg',
-    E: 'ars_nouveau:summon_focus'
-  }).id('allthemods:allthetweaks/dragon_soul')
+	  G: 'productivebees:inactive_dragon_egg',
+    E: 'ars_nouveau:summon_focus',
+    X: 'draconicevolution:chaotic_core',
+    Y: 'draconicevolution:chaotic_energy_core'
+  }).id('kubejs:allthetweaks/dragon_soul')
 
   // Dimensional Seed Recipe
   allthemods.shaped('allthetweaks:dimensional_seed', ['ABC', 'DEF', 'GHI'], {
