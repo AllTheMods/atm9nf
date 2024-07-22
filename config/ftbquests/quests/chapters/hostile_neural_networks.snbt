@@ -7,7 +7,7 @@
 	filename: "hostile_neural_networks"
 	group: "6614EE2378B8AFB9"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "hostilenetworks:data_model"
 		tag: {
 			data_model: {
@@ -41,7 +41,7 @@
 		{
 			description: ["{atm9.quest.hostile.desc.welcome}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "hostilenetworks:data_model"
 				tag: {
 					data_model: {
@@ -158,7 +158,7 @@
 			hide: false
 			hide_dependency_lines: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "hostilenetworks:data_model"
 				tag: {
 					data_model: {
@@ -240,7 +240,7 @@
 			tasks: [{
 				id: "1CB9ADBCDCEBB856"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -267,7 +267,7 @@
 			tasks: [{
 				id: "096DD8109F0AF32B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -294,7 +294,7 @@
 			tasks: [{
 				id: "642B385EA62F46F3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -321,7 +321,7 @@
 			tasks: [{
 				id: "3E7DC0A0B86C4520"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -348,7 +348,7 @@
 			tasks: [{
 				id: "1BF7753A8E889B62"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -375,7 +375,7 @@
 			tasks: [{
 				id: "179812552CBC8D0B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -402,7 +402,7 @@
 			tasks: [{
 				id: "214749A96C7E4593"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -429,7 +429,7 @@
 			tasks: [{
 				id: "56FAECD527832184"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -456,7 +456,7 @@
 			tasks: [{
 				id: "725B568705B03E81"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -483,7 +483,7 @@
 			tasks: [{
 				id: "1F4B02AFDFD7CDBE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -510,7 +510,7 @@
 			tasks: [{
 				id: "4438A3EB8EE6FEF5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -536,7 +536,7 @@
 			tasks: [{
 				id: "79A156F12CA12C10"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -563,7 +563,7 @@
 			tasks: [{
 				id: "2078CF8923772753"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -590,7 +590,7 @@
 			tasks: [{
 				id: "283C3CB8F88E7521"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -617,7 +617,7 @@
 			tasks: [{
 				id: "2C96D9C655645231"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -644,7 +644,7 @@
 			tasks: [{
 				id: "172566DF04412AD6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -671,7 +671,7 @@
 			tasks: [{
 				id: "5DC1BD98D00158DB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -698,7 +698,7 @@
 			tasks: [{
 				id: "5514A808185AE178"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -725,7 +725,7 @@
 			tasks: [{
 				id: "1CE648559814D23C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -752,7 +752,7 @@
 			tasks: [{
 				id: "20B6EC414F3EB424"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -779,7 +779,7 @@
 			tasks: [{
 				id: "52EB253913441EA0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -806,7 +806,7 @@
 			tasks: [{
 				id: "4900E0381AC1E489"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -832,7 +832,7 @@
 			tasks: [{
 				id: "30E7379687568DBA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -859,7 +859,7 @@
 			tasks: [{
 				id: "33AC152163CC680D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -886,7 +886,7 @@
 			tasks: [{
 				id: "08204D18E3EEA011"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -913,7 +913,7 @@
 			tasks: [{
 				id: "1673E580A0CAB0F9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -930,33 +930,6 @@
 		{
 			dependencies: ["14B3542ECB59869C"]
 			hide: false
-			id: "2C6D0311960BC625"
-			optional: true
-			rewards: [{
-				id: "056CB9FF6F3C34D1"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "027B0D9126A6666E"
-				item: {
-					Count: 1b
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:ars_nouveau/wilden_mobs"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -1.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			hide: false
 			id: "1C77C432FDB7A867"
 			optional: true
 			rewards: [{
@@ -967,7 +940,7 @@
 			tasks: [{
 				id: "3E2089A51091B608"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -994,7 +967,7 @@
 			tasks: [{
 				id: "7955690D5768510E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1021,7 +994,7 @@
 			tasks: [{
 				id: "7523634E63F040BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1047,7 +1020,7 @@
 			tasks: [{
 				id: "105DDFCEDAB2C613"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1058,8 +1031,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -2.5d
-			y: 14.5d
+			x: -1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1074,7 +1047,7 @@
 			tasks: [{
 				id: "7EFE4E397DF4D4C9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1085,8 +1058,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.5d
+			x: -4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1101,7 +1074,7 @@
 			tasks: [{
 				id: "2E52E1B9814D2024"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1128,7 +1101,7 @@
 			tasks: [{
 				id: "7A549C91E418F0B8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1185,7 +1158,7 @@
 			tasks: [{
 				id: "5EBA48032F985AC8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1211,7 +1184,7 @@
 			tasks: [{
 				id: "5817A7F875C852D7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1222,8 +1195,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.5d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1237,7 +1210,7 @@
 			tasks: [{
 				id: "7E6854BA24CC8E6F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1263,7 +1236,7 @@
 			tasks: [{
 				id: "33256CD6057E89D3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1289,7 +1262,7 @@
 			tasks: [{
 				id: "241FAB24745CA619"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1315,7 +1288,7 @@
 			tasks: [{
 				id: "73717CF9B6906E06"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1341,7 +1314,7 @@
 			tasks: [{
 				id: "39CCB732006377AD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1367,7 +1340,7 @@
 			tasks: [{
 				id: "44F16EED29E2947A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1393,7 +1366,7 @@
 			tasks: [{
 				id: "7C50220B129875FB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1419,7 +1392,7 @@
 			tasks: [{
 				id: "56246B64AB2A5372"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1445,7 +1418,7 @@
 			tasks: [{
 				id: "656D3ED0423DDC1B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1471,7 +1444,7 @@
 			tasks: [{
 				id: "58FB68D2EDB8823D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1497,7 +1470,7 @@
 			tasks: [{
 				id: "5AE131DC8123150E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1523,7 +1496,7 @@
 			tasks: [{
 				id: "5FF9591E5033F149"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1549,7 +1522,7 @@
 			tasks: [{
 				id: "2C70B19BC03C56B3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1575,7 +1548,7 @@
 			tasks: [{
 				id: "0578E602D16E3D39"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1601,7 +1574,7 @@
 			tasks: [{
 				id: "3B8C8F5416A6E45A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1627,7 +1600,7 @@
 			tasks: [{
 				id: "120E3937FEB8C61F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1653,7 +1626,7 @@
 			tasks: [{
 				id: "2C67655BE3583731"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1679,7 +1652,7 @@
 			tasks: [{
 				id: "6F330DA40AB70684"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1705,7 +1678,7 @@
 			tasks: [{
 				id: "333E0D43E5A5CE4C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1731,7 +1704,7 @@
 			tasks: [{
 				id: "064019D35EFBF845"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1757,7 +1730,7 @@
 			tasks: [{
 				id: "05CEAF96863A320F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1783,7 +1756,7 @@
 			tasks: [{
 				id: "56430ABCD479EE9E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1809,7 +1782,7 @@
 			tasks: [{
 				id: "49FD275C5E7851A5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1835,7 +1808,7 @@
 			tasks: [{
 				id: "718BEC1721270C30"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1861,7 +1834,7 @@
 			tasks: [{
 				id: "2BAFAA6B9922EF78"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1887,7 +1860,7 @@
 			tasks: [{
 				id: "6F6684013D52BD00"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1915,6 +1888,25 @@
 			title: "{atm9.quest.hostile.twilight}"
 			x: -1.0d
 			y: 4.5d
+		}
+		{
+			id: "4D8BB1311715F48C"
+			tasks: [{
+				id: "077B0A1C29BD6BBD"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:warden"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.5d
 		}
 	]
 	title: "{atm9.chapters.50.title}"
