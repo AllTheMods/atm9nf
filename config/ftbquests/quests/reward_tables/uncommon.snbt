@@ -320,15 +320,6 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1b
-				id: "aquaculture:neptunium_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "reliquary:pedestals/passive/white_passive_pedestal" }
 		{ count: 4, item: "functionalstorage:oak_1", random_bonus: 4, weight: 10.0f }
 		{ item: "mob_grinding_utils:absorption_hopper" }
