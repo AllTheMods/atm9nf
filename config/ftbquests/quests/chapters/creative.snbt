@@ -10,9 +10,6 @@
 	id: "16956970FF49BB4D"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
 			hover: ["What do I do with the ATM Star?"]
 			image: "atm:textures/questpics/creative.png"
@@ -22,11 +19,7 @@
 			y: -4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "allthetweaks:textures/item/atm_star.png"
 			rotation: 20.0d
 			width: 2.0d
@@ -34,11 +27,7 @@
 			y: -3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "allthetweaks:textures/item/atm_star.png"
 			rotation: -20.0d
 			width: 2.0d
@@ -64,7 +53,7 @@
 				{
 					id: "13C7B1760109C468"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "allthemodium:alloy_axe"
 						tag: {
 							affix_data: {
@@ -115,7 +104,7 @@
 				{
 					id: "5C995984E37F6C5A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -132,33 +121,6 @@
 		}
 		{
 			dependencies: ["464D0C17601E8A2B"]
-			id: "4F420AB27F056D9C"
-			optional: true
-			rewards: [
-				{
-					id: "7AABD1369C9574CC"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F0A6F37DB362775"
-					table_id: 7175652334583451871L
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "23419C4DB7C1E5CB"
-				item: "pipez:infinity_upgrade"
-				type: "item"
-			}]
-			title: "{atm9.quest.chapter3.power}"
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["464D0C17601E8A2B"]
 			hide_dependency_lines: true
 			id: "3F833B656A0DBB0E"
 			optional: true
@@ -169,15 +131,15 @@
 				type: "choice"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "5973E65E0C940E27"
 				item: "ars_nouveau:creative_spell_book"
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter3.spells}"
-			x: 0.0d
-			y: 2.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["464D0C17601E8A2B"]
@@ -265,13 +227,14 @@
 			tasks: [{
 				id: "5C777F84736455DA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ironjetpacks:jetpack"
 					tag: {
 						Id: "ironjetpacks:creative"
 						Throttle: 1.0d
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter3.jetpack}"
@@ -291,7 +254,7 @@
 			tasks: [{
 				id: "317121010F937E4F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -342,7 +305,7 @@
 			tasks: [{
 				id: "19CB734FC0897E75"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -380,7 +343,7 @@
 			tasks: [{
 				id: "7052974A3E7D3DF2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -404,7 +367,7 @@
 		}
 		{
 			dependencies: ["6E6FDF551EA4FF1A"]
-			description: ["{atm9.quest.chapter3.desc.blocks}"]
+			description: [""]
 			hide_dependency_lines: true
 			id: "0019BAE826902B4A"
 			optional: true
@@ -415,10 +378,9 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.chapter3.blocks}"
-			x: -2.5d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
-		
 	]
 	title: "{atm9.chapters.7.title}"
 }

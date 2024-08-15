@@ -66,7 +66,6 @@
 		}
 		{ item: "minecraft:beacon", weight: 2.0f }
 		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2.0f }
-		{ item: "tempad:tempad" }
 		{ item: "ars_nouveau:source_gem_block", random_bonus: 2, weight: 3.0f }
 		{
 			item: {

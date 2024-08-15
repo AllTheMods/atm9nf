@@ -62,7 +62,7 @@
 			rotation: 0.0d
 			width: 0.5d
 			x: -3.0d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			height: 0.7d
@@ -110,7 +110,7 @@
 			rotation: 0.0d
 			width: 1.4d
 			x: -2.0d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			height: 1.0d
@@ -247,9 +247,9 @@
 			icon: "allthemodium:allthemodium_ore"
 			id: "03E05018D64DDEE1"
 			tasks: [{
-				id: "0D9AA2358BE8611B"
-				title: "Felt ATM Ore is too expensive"
-				type: "checkmark"
+				id: "4A6EC22CDA1C5061"
+				item: "allthemodium:raw_allthemodium"
+				type: "item"
 			}]
 			title: "{atm9.quest.tools.tier5}"
 			x: -3.0d
@@ -258,12 +258,12 @@
 		{
 			dependencies: ["03E05018D64DDEE1"]
 			description: ["{atm9.quest.tools.desc.tier6}"]
-			icon: "allthemodium:unobtainium_ore"
+			icon: "allthemodium:vibranium_ore"
 			id: "09733948CBCB3FB9"
 			tasks: [{
-				id: "55B9216D3C4D2B4B"
-				title: "Pretend this is Unobtainium"
-				type: "checkmark"
+				id: "68F34F5DC8281061"
+				item: "allthemodium:raw_vibranium"
+				type: "item"
 			}]
 			title: "{atm9.quest.tools.tier6}"
 			x: -2.5d
@@ -572,7 +572,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.tools.6pick4}"
-			x: 2.0d
+			x: 1.0d
 			y: -2.5d
 		}
 		{
@@ -590,7 +590,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -712,7 +712,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -754,7 +754,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -810,7 +810,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -828,7 +828,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
@@ -846,7 +846,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 7.0d
 		}
 		{
@@ -864,7 +864,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
@@ -904,24 +904,6 @@
 			y: 6.5d
 		}
 		{
-			id: "2496226FAF4C22F3"
-			optional: true
-			subtitle: "{atm9.quest.tools.subt.damage7_5}"
-			tasks: [{
-				id: "59B2BD335771F43D"
-				item: {
-					Count: 1
-					id: "forbidden_arcanus:reinforced_deorum_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.5d
-		}
-		{
 			id: "2664388EBA1E8F90"
 			optional: true
 			subtitle: "{atm9.quest.tools.subt.damage8}"
@@ -936,7 +918,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 8.0d
 		}
 		{
@@ -954,7 +936,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 8.0d
 		}
 		{
@@ -990,7 +972,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 9.0d
 		}
 		{
@@ -1008,8 +990,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 10.5d
+			x: -1.0d
+			y: 10.0d
 		}
 		{
 			id: "6856A5572B239D10"
@@ -1020,8 +1002,8 @@
 				item: "allthemodium:allthemodium_sword"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.0d
+			x: -0.5d
+			y: 10.5d
 		}
 		{
 			id: "4DCEC4B97E24B6F1"
@@ -1038,8 +1020,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 11.5d
+			x: -1.0d
+			y: 11.0d
 		}
 		{
 			id: "2007EF64F0406090"
@@ -1050,8 +1032,8 @@
 				item: "mysticalagriculture:supremium_sword"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 12.5d
+			x: -1.0d
+			y: 12.0d
 		}
 		{
 			id: "5A6670364ADE0858"
@@ -1062,8 +1044,8 @@
 				item: "mysticalagriculture:awakened_supremium_sword"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 13.5d
+			x: -1.0d
+			y: 13.0d
 		}
 		{
 			id: "47AED7219704EB3E"
@@ -1074,8 +1056,8 @@
 				item: "allthemodium:vibranium_sword"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.0d
+			x: -0.5d
+			y: 11.5d
 		}
 		{
 			id: "744AC6BD82FC2DEE"
@@ -1086,8 +1068,8 @@
 				item: "allthemodium:unobtainium_sword"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.0d
+			x: -0.5d
+			y: 12.5d
 		}
 		{
 			id: "2F90CA5DF9225209"
@@ -1104,8 +1086,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 0.5d
+			y: 9.5d
 		}
 		{
 			id: "4C8C56F960D92E9D"
@@ -1116,8 +1098,8 @@
 				item: "allthemodium:alloy_sword"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 14.0d
+			x: -0.5d
+			y: 13.5d
 		}
 		{
 			id: "6EE68EEFE388CF8A"
@@ -1218,7 +1200,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.tools.6sword1}"
-			x: -1.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -1333,7 +1315,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.tools.7sword1}"
-			x: -1.0d
+			x: 0.0d
 			y: 7.0d
 		}
 		{
@@ -1374,7 +1356,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.tools.9sword2}"
-			x: 0.5d
+			x: -0.5d
 			y: 8.5d
 		}
 		{
@@ -1382,40 +1364,17 @@
 			optional: true
 			subtitle: "{atm9.quest.tools.subt.damage9}"
 			tasks: [{
-				id: "160F2A806080C3D7"
+				id: "394F9275CEC0728C"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "deeperdarker:warden_sword"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "twilightdelight:teardrop_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "deeperdarker:warden_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "voidscape:voidic_crystal_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
+						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.9sword1}"
-			x: -0.5d
+			x: 0.5d
 			y: 8.5d
 		}
 		{
@@ -1456,42 +1415,62 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.tools.12sword2}"
-			x: 1.0d
-			y: 10.0d
+			x: 1.5d
+			y: 9.5d
 		}
 		{
 			id: "6F1A9A95F40F554D"
 			optional: true
 			subtitle: "{atm9.quest.tools.subt.damage12}"
 			tasks: [{
-				id: "7D41B4F30D2D6A8C"
+				id: "76F19A737177006F"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "forbidden_arcanus:draco_arcanus_sword"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "forbidden_arcanus:draco_arcanus_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "voidscape:ichor_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
+						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.12sword1}"
-			x: -1.0d
-			y: 10.0d
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			id: "045EFB9428618609"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage5}"
+			tasks: [{
+				id: "3F8266EDF8422629"
+				item: {
+					Count: 1
+					id: "mekanismtools:lapis_lazuli_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "7F1BBD859FDC9B70"
+			optional: true
+			subtitle: "{atm9.quest.tools.subt.damage8}"
+			tasks: [{
+				id: "0D186CD03EC5A67B"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
 		}
 	]
 	title: "{atm9.chapters.52.title}"
