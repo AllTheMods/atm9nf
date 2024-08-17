@@ -3,9 +3,9 @@
 
 English, AllTheMods Team and quest devs/contributors,
 - AlfredGG
-- Jonh09
 - ToshibaMicrowave
-
+- Jonh09
+- Toblerone0508
 
 Japanese,
 - flll (https://github.com/flll)
@@ -17,6 +17,7 @@ Spanish,
 - radzratz (https://github.com/RadzRatz)
 - 102389 (https://github.com/102389)
 - Arivio (https://github.com/Arivios)
+- Metabodiru (https://github.com/Drox17)
 
 Norwegian (BokMål)
 - Permest (https://github.com/Permest)
@@ -26,4 +27,3 @@ Korean (packmenu buttons)
 
 Portuguese 
 - oRuiva (https://github.com/oRuiva)
-
