@@ -21,7 +21,7 @@
 		}
 		{
 			height: 2.0d
-			image: "atm:textures/questpics/apotheosis/apotheosis.png"
+			image: "atm:textures/questpics/apotheosis/apotheosis_enchanting.png"
 			rotation: 0.0d
 			width: 7.324503311258278d
 			x: 6.5d

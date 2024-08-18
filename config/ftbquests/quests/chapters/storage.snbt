@@ -19,7 +19,7 @@
 		}
 		{
 			height: 3.0d
-			image: "atm:textures/questpics/rftools/storagescanner.png"
+			image: "atm:textures/questpics/storage/storagescanner.png"
 			rotation: 0.0d
 			width: 4.5d
 			x: -10.5d
@@ -849,7 +849,7 @@
 				{
 					id: "4B2F25D7E70DD87F"
 					type: "xp"
-					xp: 5
+					xp: 50
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.upgrade_base}"
@@ -869,9 +869,9 @@
 			id: "0E0CAA31480EC0A1"
 			optional: true
 			rewards: [{
-				id: "7ADBF209091E5821"
+				id: "36996E2568432746"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			shape: "circle"
 			subtitle: "{atm9.quest.storage.subt.pickup}"
@@ -890,9 +890,9 @@
 			id: "1985CFD1F0425E88"
 			optional: true
 			rewards: [{
-				id: "648AD42B15591F72"
+				id: "7BFF73C540D8B870"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.Apickup}"
 			tasks: [{
@@ -911,9 +911,9 @@
 			id: "156FF8B7B724DC38"
 			optional: true
 			rewards: [{
-				id: "39BE377911DC6C3A"
+				id: "2F379D474E005F7F"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.filter}"
 			tasks: [{
@@ -931,9 +931,9 @@
 			id: "57CF8C6C867B9BDA"
 			optional: true
 			rewards: [{
-				id: "3522A1F2B552FF21"
+				id: "20E505183141C0DB"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "6530A152D9337A4C"
@@ -951,9 +951,9 @@
 			id: "110D27EA86CDA62B"
 			optional: true
 			rewards: [{
-				id: "3DAE7B9BA91F8520"
+				id: "13FF65CF15AABFB4"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.magnet}"
 			tasks: [{
@@ -971,9 +971,9 @@
 			id: "11D57C768032E3F7"
 			optional: true
 			rewards: [{
-				id: "2B3FB31DDDCD1F45"
+				id: "72AB3E9405436AE3"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "14A8CEB60805E90A"
@@ -991,9 +991,9 @@
 			id: "5FA9BC0D8476D322"
 			optional: true
 			rewards: [{
-				id: "3AAACB23C7CE64C0"
+				id: "71F330FDF5E8BF61"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.feeding}"
 			tasks: [{
@@ -1011,9 +1011,9 @@
 			id: "1A739D36D5E3B1AD"
 			optional: true
 			rewards: [{
-				id: "0B71DCC81A95305B"
+				id: "5832AB1371E50191"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "41C87FC409006F13"
@@ -1031,9 +1031,9 @@
 			id: "1CD2C6AFD788C35E"
 			optional: true
 			rewards: [{
-				id: "4B5E3828A7FEE102"
+				id: "7818D2BBA9888C9F"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.bpcompacting}"
 			tasks: [{
@@ -1051,9 +1051,9 @@
 			id: "5E4FE420B6D2C97F"
 			optional: true
 			rewards: [{
-				id: "18BDC6FD268F1347"
+				id: "0E47EBD210255D06"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.Acompacting}"
 			tasks: [{
@@ -1072,9 +1072,9 @@
 			id: "7EFBFF5D0DA018E7"
 			optional: true
 			rewards: [{
-				id: "6A1B0E04AAE2BFF2"
+				id: "610C65DDBEAD7079"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.void}"
 			tasks: [{
@@ -1092,9 +1092,9 @@
 			id: "2FC15D3916DBF4E4"
 			optional: true
 			rewards: [{
-				id: "5989427C93E9266D"
+				id: "0F5661245FFFF82A"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "3A29FF1C2AD59B06"
@@ -1113,9 +1113,9 @@
 			id: "4B62AF0405F68041"
 			optional: true
 			rewards: [{
-				id: "4C3EB57AC444EC11"
+				id: "29F53090A6D38D7C"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.restock}"
 			tasks: [{
@@ -1133,9 +1133,9 @@
 			id: "019CA0E35F888222"
 			optional: true
 			rewards: [{
-				id: "4F4574E228792C80"
+				id: "2E699EA03D8C8FD1"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "45492321B5D5A2D6"
@@ -1154,9 +1154,9 @@
 			id: "00DB5495C3A44999"
 			optional: true
 			rewards: [{
-				id: "573C3AE6F966E820"
+				id: "2974C520F8C9998F"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.deposit}"
 			tasks: [{
@@ -1174,9 +1174,9 @@
 			id: "4C0EAB9F795686D0"
 			optional: true
 			rewards: [{
-				id: "27CA65D1E2EEDA8A"
+				id: "0B3733F6D1462D2F"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "3D7F2E1489EB84AA"
@@ -1194,9 +1194,9 @@
 			id: "33882172DA8021F6"
 			optional: true
 			rewards: [{
-				id: "773BA104B1822DAF"
+				id: "7C8ADF64D2E96768"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.refill}"
 			tasks: [{
@@ -1220,9 +1220,9 @@
 			id: "7C07D6A33F7ADB02"
 			optional: true
 			rewards: [{
-				id: "251C508792472ABB"
+				id: "42D21D8046F3267A"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.inception}"
 			tasks: [{
@@ -1241,9 +1241,9 @@
 			id: "037415D5B965E214"
 			optional: true
 			rewards: [{
-				id: "16FFA5DD686C0084"
+				id: "1A81406E5FE53F2C"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.everlasting}"
 			tasks: [{
@@ -1262,9 +1262,9 @@
 			id: "668C313FF46B6005"
 			optional: true
 			rewards: [{
-				id: "621E7721DC1187BF"
+				id: "11C9D7C3F4C26828"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.smelting}"
 			tasks: [{
@@ -1282,9 +1282,9 @@
 			id: "3A1D07AED2A841E4"
 			optional: true
 			rewards: [{
-				id: "278BE67D7B2DA41A"
+				id: "5D6584C6B83CF6F1"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.Asmelting}"
 			tasks: [{
@@ -1303,9 +1303,9 @@
 			id: "26A9F402DAE15EA2"
 			optional: true
 			rewards: [{
-				id: "0F7536B588E4582A"
+				id: "2878D27524F640AD"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.smoking}"
 			tasks: [{
@@ -1323,9 +1323,9 @@
 			id: "36BCE35215B2B6E9"
 			optional: true
 			rewards: [{
-				id: "3DA8FC30D52E42AE"
+				id: "3FAB24A562DD9B72"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "4D0ACCBF77CC0846"
@@ -1343,9 +1343,9 @@
 			id: "1E499F94A2A193E1"
 			optional: true
 			rewards: [{
-				id: "003DF784F0E1EDE6"
+				id: "5A140124E4D6DA67"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.blasting}"
 			tasks: [{
@@ -1363,9 +1363,9 @@
 			id: "26988E22BD019628"
 			optional: true
 			rewards: [{
-				id: "568084E6EBB1ABD0"
+				id: "77966BF060A902DB"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "62BCE2BB281304DC"
@@ -1383,9 +1383,9 @@
 			id: "4A854CD5EC70733E"
 			optional: true
 			rewards: [{
-				id: "76DEF2900448AD2B"
+				id: "3B6A170EAE90156B"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.crafting}"
 			tasks: [{
@@ -1404,9 +1404,9 @@
 			id: "52672B7FFFD51D16"
 			optional: true
 			rewards: [{
-				id: "641D01DBE66A27DF"
+				id: "3D4D67F0B37A384C"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.stonecutting}"
 			tasks: [{
@@ -1428,7 +1428,7 @@
 				{
 					id: "442C444707D2AD35"
 					type: "xp"
-					xp: 5
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
@@ -1456,7 +1456,7 @@
 				{
 					id: "246B4B8ABB20D8A7"
 					type: "xp"
-					xp: 5
+					xp: 200
 				}
 				{
 					exclude_from_claim_all: true
@@ -1483,7 +1483,7 @@
 				{
 					id: "5C6FA0134C10A5D6"
 					type: "xp"
-					xp: 5
+					xp: 300
 				}
 				{
 					exclude_from_claim_all: true
@@ -1510,7 +1510,7 @@
 				{
 					id: "2E76A37774F0CEC5"
 					type: "xp"
-					xp: 5
+					xp: 500
 				}
 				{
 					exclude_from_claim_all: true
@@ -1535,9 +1535,9 @@
 			id: "53F861876B991C36"
 			optional: true
 			rewards: [{
-				id: "3285596442FF6447"
+				id: "7A1322B05F2BEE5E"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.jukebox}"
 			tasks: [{
@@ -1556,9 +1556,9 @@
 			id: "615B9062FE8CCD36"
 			optional: true
 			rewards: [{
-				id: "54802B4F6EE4412E"
+				id: "4C0520ED027E09AB"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.tool}"
 			tasks: [{
@@ -1576,9 +1576,9 @@
 			id: "15CD4BFDC56E9510"
 			optional: true
 			rewards: [{
-				id: "3198E65D369D203C"
+				id: "7E0814292DBB104C"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "700D630FE0FB8B9D"
@@ -1596,9 +1596,9 @@
 			id: "0D4C64DD58567758"
 			optional: true
 			rewards: [{
-				id: "198BF862B3BF5ABA"
+				id: "494B2E9A958535BF"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.tank}"
 			tasks: [{
@@ -1617,9 +1617,9 @@
 			id: "4C2A60FC1F1E0328"
 			optional: true
 			rewards: [{
-				id: "18E06C1A7BC76A3F"
+				id: "50330EAAF9B51C38"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.battery}"
 			tasks: [{
@@ -1640,7 +1640,7 @@
 			rewards: [{
 				id: "2E57D243960C9A86"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			subtitle: "{atm9.quest.storage.subt.PU}"
 			tasks: [{
@@ -1660,7 +1660,7 @@
 			rewards: [{
 				id: "23887038DAC8A6EB"
 				type: "xp"
-				xp: 5
+				xp: 10
 			}]
 			tasks: [{
 				id: "5B7A8E1F725C2815"
@@ -1679,7 +1679,7 @@
 			rewards: [{
 				id: "67BA8A35E56EB3F0"
 				type: "xp"
-				xp: 5
+				xp: 100
 			}]
 			tasks: [{
 				id: "3B52B2670A826CE4"
