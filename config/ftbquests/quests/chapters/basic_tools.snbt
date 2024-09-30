@@ -408,9 +408,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.3pick1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.3pick1}"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -513,9 +513,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6pick2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6pick2}"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -569,9 +569,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6pick4}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6pick4}"
 			x: 1.0d
 			y: -2.5d
 		}
@@ -675,9 +675,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.4pick1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.4pick1}"
 			x: 1.0d
 			y: -1.5d
 		}
@@ -1149,9 +1149,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6pick1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6pick1}"
 			x: -1.0d
 			y: -2.5d
 		}
@@ -1197,9 +1197,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6sword1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6sword1}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -1245,9 +1245,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.6sword2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.6sword2}"
 			x: 1.0d
 			y: 6.0d
 		}
@@ -1312,9 +1312,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.7sword1}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.7sword1}"
 			x: 0.0d
 			y: 7.0d
 		}
@@ -1353,9 +1353,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.9sword2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.9sword2}"
 			x: -0.5d
 			y: 8.5d
 		}
@@ -1412,9 +1412,9 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tools.12sword2}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tools.12sword2}"
 			x: 1.5d
 			y: 9.5d
 		}
