@@ -263,11 +263,6 @@
 					type: "random"
 				}
 				{
-					id: "03768788B310EC53"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-				{
 					id: "485B34813CB30B7A"
 					table_id: 1739527894044761161L
 					type: "random"
@@ -289,18 +284,8 @@
 			id: "718A2040D868E09F"
 			rewards: [
 				{
-					id: "5449AE4F52C12FD0"
-					item: "refinedstorage:1k_storage_part"
-					type: "item"
-				}
-				{
 					id: "2724B0206935EB5F"
 					table_id: 3567941291661635734L
-					type: "random"
-				}
-				{
-					id: "7DB9984426FF521D"
-					table_id: 4001436279668650237L
 					type: "random"
 				}
 				{
@@ -480,32 +465,6 @@
 			title: "{atm9.quest.rs.netherite}"
 			x: 2.5d
 			y: -8.0d
-		}
-		{
-			dependencies: ["01F18150EC923482"]
-			description: ["{atm9.quest.rs.desc.transmitter}"]
-			id: "3FAD086F7D9CCAE9"
-			rewards: [{
-				id: "182081F231AA3B51"
-				table_id: 4001436279668650237L
-				type: "random"
-			}]
-			subtitle: "{atm9.quest.rs.subt.transmitter}"
-			tasks: [
-				{
-					id: "66C161825999C4EF"
-					item: "refinedstorage:network_transmitter"
-					type: "item"
-				}
-				{
-					id: "4635012B066F66F3"
-					item: "refinedstorage:network_receiver"
-					type: "item"
-				}
-			]
-			title: "{atm9.quest.rs.transmitter}"
-			x: -5.0d
-			y: -1.5d
 		}
 		{
 			dependencies: ["01F18150EC923482"]
@@ -988,7 +947,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.rs.security}"
-			x: -7.0d
+			x: -5.0d
 			y: -1.5d
 		}
 		{
@@ -1186,7 +1145,7 @@
 			tasks: [{
 				id: "301E0669A3CD84EF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:portable_grid"
 					tag: { }
 				}
@@ -1692,7 +1651,47 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.rs.wrench}"
-			x: -7.5d
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "161AB0285C44D093"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "704FC2411AA8D09B"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "78E6FB3A3F6BAFC9"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -8.0d
 			y: -2.5d
 		}
 	]
