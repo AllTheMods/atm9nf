@@ -18,6 +18,8 @@
 	"atm9.chapters.10.title": "Basic Storage",
 	"atm9.chapters.11.title": "Applied Energistics 2",
 	"atm9.chapters.12.title": "Refined Storage",
+	"atm9.chapters.group.6.": "Logistics",
+	"atm9.chapters.53.title": "Pylons",
 	"atm9.chapters.group.4.": "Resources",
 	"atm9.chapters.13.title": "AllThePower",
 	"atm9.chapters.14.title": "Apotheosis Spawners",
@@ -3807,6 +3809,20 @@
 	"atm9.quest.rs.subt.crafter": "Automated crafting!",
 	"atm9.quest.rs.subt.wireless": "Storage, at a distance",
 	"atm9.quest.rs.subt.range": "I mean Transmitting Range",
+
+
+	"atm9.quest.pylons.title.pylonsintro": "&lPylons",
+  	"atm9.quest.pylons.title.hoes": "Hoes",
+
+ 	"atm9.quest.pylons.desc.pylonsintro.1": "Pylons is a wonderful mod made by our very own Mutant Gumdrop!\\n\\nDon't let the size of the mod make you underestimate it! It provides many Pylons which can be used for many things to help make playing Minecraft easier. \\n \\nTo get started you'll need some Polished Blackstone to make them.",
+  	"atm9.quest.pylons.desc.expulsion.1": "The Expulsion Pylon works as a way of keeping people off your lawn. When placed down it will keep any Players who aren't whitelisted from a set amount of Chunks around it. The Chunks are set in it's GUI in the top left from 1x1, 3x3, or 5x5 Chunks. Also no it can't be set too close to Spawn. We know what you trolls want and we ain't giving it! To Whitelist players check the Player Filter Quest!",
+ 	"atm9.quest.pylons.desc.interdiction.1": "Do you just hate when Zombies spawn at your base? Or when Creepers do? Or when Pandas do? Or literally any mob you can find! Then you want the Interdiction Pylon. When a Mob Filter is put into it, it'll disable spawns of that mob in the set Chunk area (you can set the Chunks in the top left of the GUI). You can put as many Mob Filters as it can hold.",
+ 	"atm9.quest.pylons.desc.harvester.1": "Harvester Pylons work as a very simple Auto-Farm. Put the Pylon on or in the Water Source and it will automatically harvest and replant Crops that are fully grown in the set area around it. The area can be set to 3x3, 5x5, 7x7, or 9x9 Blocks around the Pylon. It will need a Hoe to use on the Plants and will need an Inventory like a chest above it to put the Crops. Do all that and if it's turned On it will start farming! \\n \\n(Careful when using a lot of modifiers with it like Lilypads or fertilizer as when it goes very fast farming it can be a TPS eater).",
+ 	"atm9.quest.pylons.desc.infusion.1": "The Infusion Pylon works similar as a Beacon just much better and cheaper! When a Potion Effect is put in by a Potion Filter, it will continuously give you the Potion Effect while you're in the set Chunk area.",
+	"atm9.quest.pylons.desc.explusion.1": "The Explusion Pylon pushes players out of the area, but what if you want &lsome&r players nearby! Then you'll need a Player Filter. Right Click a Player with it to set them in it, and then put it into the Pylon to Whitelist them! So when everyone else is pushed out, your friend won't be! Also by default the Owner of the Pylon won't get expuled.",
+	"atm9.quest.pylons.desc.mobfilter.1": "To set the Mob Filter you just have to click the Mob you never want to see again, with the Mob Filter. Each Filter can only hold 1 Mob so if you want Zombies, Skeletons, Spiders, Creepers, and Endermen to no longer spawn you'll need 5 Mob Filters. You can exchange the Mob in it by simplying clicking a different Mob with it.",
+	"atm9.quest.pylons.desc.potionfilter.1": "In order to put Potion Effects into you'll need to fill a Potion Filter. To do so: have a Potion Effect on you, then right click with the Potion Filter to remove it from you and add it to the Filter, and repeat until it's filled and active. This also works with modded Potion Effects or ones you can't usually get through Potions like Haste or Resistance.",
+  	"atm9.quest.pylons.desc.harvesterex.1": "The Harvester Pylon needs a Hoe to work. (Hoes without Durability or are Indestructible will work forever, Hoes that aren't will need to be replaced).",
 
 
 	"atm9.quest.power.ATP": "All Things Power!",
