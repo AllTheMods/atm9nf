@@ -15,7 +15,7 @@ When reporting an issue put the version number before the issue title! Such as [
 <br>
 
 #### Modpacks:
-+ [![All the Mods 9](http://cf.way2muchnoise.eu/372309.svg "ATM9") All The Mods 0 - ATM0](https://www.curseforge.com/minecraft/modpacks/all-the-mods-0)
++ [![All the Mods 0](http://cf.way2muchnoise.eu/372309.svg "ATM9") All The Mods 0 - ATM0](https://www.curseforge.com/minecraft/modpacks/all-the-mods-0)
 + [![All the Mods 1](http://cf.way2muchnoise.eu/242462.svg "ATM1") All The Mods 1 - ATM1](https://www.curseforge.com/minecraft/modpacks/all-the-mods)
 + [![All the Mods 2](http://cf.way2muchnoise.eu/253707.svg "ATM2") All The Mods 2 - ATM2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-2)
 + [![All the Mods 3](http://cf.way2muchnoise.eu/269708.svg "ATM3") All The Mods 3 - ATM3](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3)
@@ -36,3 +36,4 @@ When reporting an issue put the version number before the issue title! Such as [
 + [![All the Mods Gravitas²](http://cf.way2muchnoise.eu/949996.svg "ATMG²") All The Mods Gravitas²- ATMG²](https://www.curseforge.com/minecraft/modpacks/all-the-mods-gravitas2)
 + [![Maul The Odds](http://cf.way2muchnoise.eu/987792.svg "MTO") Maul The Odds - MTO](https://www.curseforge.com/minecraft/modpacks/maul-the-odds)
 + [![All the Mods 9Sky](http://cf.way2muchnoise.eu/967745.svg "ATM9Sky") All The Mods 9 - To The Sky- ATM9Sky](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9-to-the-sky)
++ [![All the Mods 10](http://cf.way2muchnoise.eu/925200.svg "ATM9Sky") All The Mods 10 - ATM10](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10)
