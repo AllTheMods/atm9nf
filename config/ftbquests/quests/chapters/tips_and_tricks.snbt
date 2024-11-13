@@ -6,13 +6,10 @@
 	default_quest_shape: "diamond"
 	filename: "tips_and_tricks"
 	group: ""
+	icon: "crafting_on_a_stick:crafting_table"
 	id: "1BE666F01EFFC00D"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 3.0d
-		hover: [ ]
 		image: "atm:textures/questpics/tips_and_tricks.png"
 		rotation: 0.0d
 		width: 12.0d
@@ -53,15 +50,15 @@
 			id: "7EC8814940C4C3D7"
 			rewards: [
 				{
-					id: "156D559B0B56BA9A"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6BCF264E89365C5D"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "241D0E577BC76FF0"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "diamond"
@@ -69,7 +66,7 @@
 			tasks: [{
 				id: "30C938C85BED7956"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "shrink:shrinking_device"
 					tag: { }
 				}
@@ -100,7 +97,7 @@
 				{
 					id: "51AA3A27028426C5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -177,7 +174,7 @@
 				{
 					id: "04903282E935F3D3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -284,15 +281,23 @@
 		{
 			description: ["{atm9.quest.tips.desc.wand}"]
 			id: "2A2E3D020B1F5126"
-			rewards: [{
-				id: "03F64743F4F59499"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39CB886E6CC7043A"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "56DC37C0CC3C4E33"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "176150A0FE674662"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -330,10 +335,9 @@
 						]
 					}
 				}
-				title: "Construction Wands"
+				title: "{atm9.quest.tips.wand}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tips.wand}"
 			x: 0.5d
 			y: 8.0d
 		}
@@ -389,22 +393,22 @@
 			id: "3FC002E5A6C08DCC"
 			rewards: [
 				{
-					id: "0F5B656ED410D441"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "36D0962726704052"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "1B4FC2677797AB87"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "{atm9.quest.tips.subt.magnet}"
 			tasks: [{
 				id: "27CB2988681DB62C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -433,22 +437,22 @@
 			id: "70B6C9409AE69284"
 			rewards: [
 				{
-					id: "554BFA90C78DEDD5"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "262AC9191FD415A3"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "458317CE9C88646A"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "{atm9.quest.tips.subt.compass}"
 			tasks: [{
 				id: "595B3FA9F32B712D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturescompass:naturescompass"
 					tag: { }
 				}
@@ -463,15 +467,15 @@
 			id: "05F186C95510BD4B"
 			rewards: [
 				{
-					id: "2EA020DC0A263031"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "466A0AFE85E7A5D4"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "2C1B364184B09CD6"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -486,11 +490,18 @@
 		{
 			description: ["{atm9.quest.tips.desc.exp}"]
 			id: "0060BCEDABC9BE2E"
-			rewards: [{
-				id: "57949E0DF2C7478A"
-				item: "minecraft:experience_bottle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "57949E0DF2C7478A"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "3515DDF16379D455"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "189B87AF99321862"
 				item: "utilitix:experience_crystal"
@@ -503,11 +514,19 @@
 		{
 			description: ["{atm9.quest.tips.desc.stick}"]
 			id: "0790D3BB481162A6"
-			rewards: [{
-				id: "2D7265C36210BDDB"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15B5A2A290603E6D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "01D3439060DAF857"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [
 				{
 					id: "6038387EA35404CD"
@@ -551,7 +570,7 @@
 		{
 			description: ["{atm9.quest.tips.desc.mahou}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					Parent: {
 						MAHOUTSUKAI_ATTACK_CAP: 0.0d
@@ -598,6 +617,46 @@
 			title: "{atm9.quest.tips.spawner}"
 			x: 5.5d
 			y: 5.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "701F0540D9C1E4A2"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "062012C1A525E993"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "38596DF47652E7BA"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 4.5d
 		}
 	]
 	title: "{atm9.chapters.4.title}"

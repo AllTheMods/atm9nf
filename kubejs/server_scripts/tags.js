@@ -67,8 +67,6 @@ ServerEvents.tags('item', allthemods => {
   allthemods.remove('forge:rods/naquadah_alloy', 'sgjourney:naquadah_rod')
   allthemods.remove('forge:raw_materials/naquadah', 'sgjourney:raw_naquadah')
 
-
-  //Salt fixes (iarspider)
   // - croptopia
   allthemods.add('forge:dusts', 'croptopia:salt')
   allthemods.add('forge:dusts/salt', 'croptopia:salt')
@@ -78,17 +76,9 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('forge:storage_blocks', 'mekanism:block_salt')
 	allthemods.add('minecolonies:storage_blocks', 'mekanism:block_salt')
 	allthemods.add('forge:storage_blocks/salt', 'mekanism:block_salt')
-  // - railcraft
-  allthemods.remove('forge:salt', 'railcraft:saltpeter_dust')
-	allthemods.remove('forge:dusts/salt', 'railcraft:saltpeter_dust')
-	allthemods.remove('forge:salts', 'railcraft:saltpeter_dust')
-	allthemods.add('forge:dusts/potassium_nitrate', 'railcraft:saltpeter_dust')
-	allthemods.add('forge:dusts', 'railcraft:saltpeter_dust')
-	allthemods.add('forge:dusts/saltpeter', 'railcraft:saltpeter_dust')
-	allthemods.add('forge:dusts/niter', 'railcraft:saltpeter_dust')
-	allthemods.add('mysticalagriculture:material/saltpeter', 'railcraft:saltpeter_dust')
-	allthemods.add('supplementaries:hourglass_dusts', 'railcraft:saltpeter_dust')
-
+  // - create
+  allthemods.remove('create:safe_nbt', ['create:clipboard'])
+  allthemods.add('create:non_movable',['@sophisticatedstorage'])
 })
 
 ServerEvents.tags('block', allthemods => {

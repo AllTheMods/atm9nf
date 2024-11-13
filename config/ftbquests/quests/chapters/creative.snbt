@@ -11,7 +11,6 @@
 	images: [
 		{
 			height: 4.0d
-			hover: ["What do I do with the ATM Star?"]
 			image: "atm:textures/questpics/creative.png"
 			rotation: 0.0d
 			width: 16.0d
@@ -380,6 +379,46 @@
 			title: "{atm9.quest.chapter3.blocks}"
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "7F9C5A75F106459E"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7483469A26AB102E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "00F6FFDFA222919D"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 	title: "{atm9.chapters.7.title}"

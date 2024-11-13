@@ -786,7 +786,9 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["12BDE512C734D19A"]
 			description: ["{atm9.quest.draconic.desc.core}"]
+			hide_dependency_lines: true
 			id: "7F757CD6F8C57733"
 			rewards: [{
 				id: "720F8AFF5D480BCA"
@@ -957,7 +959,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0817FD6E45C127E8"]
+			dependencies: ["2D9AF97C03C5AEC7"]
 			description: [
 				"{atm9.quest.draconic.desc.5}"
 				"{image:atm:textures/questpics/draconic/draconic_core_5off.png width:100 height:100 align:1}"

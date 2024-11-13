@@ -116,12 +116,14 @@
 		"vibrant_alloy",
 		"end_steel",
 		"terrasteel",
+		"draconium",
 		"cyanite",
 		"niotic_crystal",
 		"spirited_crystal",
 		"uraninite",
 		"nether_star",
 		"dragon_egg",
+		"awakened_draconium",
 		"nitro_crystal"
 	],
 	"disabled": [
@@ -144,10 +146,8 @@
 		"queens_slime",
 		"hepatizon",
 		"rock_crystal",
-		"draconium",
 		"yellorium",
 		"gaia_spirit",
-		"awakened_draconium",
 		"neutronium"
 	]
 }
