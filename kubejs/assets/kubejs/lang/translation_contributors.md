@@ -4,13 +4,13 @@
 English, AllTheMods Team and quest devs/contributors,
 - AlfredGG
 - ToshibaMicrowave
-- Jonh09
 - Toblerone0508
+- Jonh09
 
 Japanese,
 - flll (https://github.com/flll)
 
-French, (partial, needs updating)
+French,
 - FabLeKebab (https://github.com/FabLeKebab)
 
 Spanish,

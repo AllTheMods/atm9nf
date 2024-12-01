@@ -175,7 +175,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Whose fleece was....rainbow?"
+			subtitle: "Whose fleece was....Rainbow?"
 			tasks: [{
 				count: 3L
 				icon: "minecraft:white_wool"
@@ -1039,10 +1039,49 @@
 			x: 3.5d
 			y: 5.0d
 		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "509E3F9DD3B769ED"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3FDC0A9646F56605"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "4D9CE1F1AEC10A7F"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
 	]
 	title: "{atm9.chapters.15.title}"
 }
-
 
 ## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
 ## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

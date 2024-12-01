@@ -1,6 +1,6 @@
 {
+	"atm9.modpack.title": "All The Mods 9 - No Frills",
 
-	"atm9.modpack.title": "All The Mods 9",
 	"atm9.chapters.1.title": "환영합니다",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "현상금 게시판",
@@ -33,32 +33,16 @@
 	"atm9.chapters.22.title": "Mekanism: &d고급&r",
 	"atm9.chapters.23.title": "Powah",
 	"atm9.chapters.24.title": "Thermal Series",
-	"atm9.chapters.group.6.": "GregTech™",
-	"atm9.chapters.25.title": "시작 가이드",
-	"atm9.chapters.26.title": "증기 시대",
-	"atm9.chapters.27.title": "저전압",
-	"atm9.chapters.28.title": "중전압",
-	"atm9.chapters.29.title": "고전압",
-	"atm9.chapters.30.title": "초고전압",
-	"atm9.chapters.31.title": "광기의 전압",
-	"atm9.chapters.32.title": "극한의 전압",
-	"atm9.chapters.33.title": "제로 포인트 모듈",
-	"atm9.chapters.34.title": "궁극의 전압",
-	"atm9.chapters.35.title": "초월 전압",
-	"atm9.chapters.36.title": "그렉스타",
-	"atm9.chapters.37.title": "마일스톤",
 	"atm9.chapters.group.7.": "마법",
 	"atm9.chapters.38.title": "Apotheosis 인챈트",
 	"atm9.chapters.39.title": "Ars Nouveau",
 	"atm9.chapters.40.title": "Blood Magic",
 	"atm9.chapters.41.title": "Botania",
-	"atm9.chapters.51.title": "Eidolon: Repraised",
 	"atm9.chapters.42.title": "EvilCraft",
 	"atm9.chapters.43.title": "Forbidden and Arcanus",
 	"atm9.chapters.44.title": "Occultism",
 	"atm9.chapters.group.8.": "탐험",
 	"atm9.chapters.45.title": "Ad Astra",
-	"atm9.chapters.46.title": "Blue Skies",
 	"atm9.chapters.47.title": "Cataclysm",
 	"atm9.chapters.48.title": "황혼의 숲",
 
@@ -1711,7 +1695,7 @@
 	"atm9.quest.create.brass": "황동",
 	"atm9.quest.create.desc.superGlue": "\"슈퍼 글루\"는 피스톤이나 다른 수단으로 이동하기 위해 블록들을 서로 접착하는 데 사용할 수 있습니다.",
 	"atm9.quest.create.desc.belts.1": "\"벨트\"는 두 개의 \"샤프트\" 사이에 배치할 수 있으며, 몹/아이템을 전송하거나 단순히 한 지점에서 다른 지점으로 회전 에너지를 전달하는 데 사용할 수 있습니다.",
-	"atm9.quest.create.desc.belts.2": "\"샤프트\"는 서로 45도, 90도, 또는 180도 위치에 있어야 합니다.",	"atm9.quest.eidolonRepraised.desc.intro.1": "これはエイドロンです。ブレージャーやソウルハーベスティングを通じた儀式を含むダークマジックModです。",
+	"atm9.quest.create.desc.belts.2": "\"샤프트\"는 서로 45도, 90도, 또는 180도 위치에 있어야 합니다.",
 
 
 	"atm9.quest.evilcraft.desc.modIntro.1": "&c이블크래프트&r는 다소 사악한 것에 기반한 마법 모드입니다. 적의 피를 모으고 고대의 사악한 힘을 이용해봅시다!",
@@ -2312,7 +2296,9 @@
 	"atm9.quest.occultism.desc.demonsAndFamiliars.2": "물건을 움직이거나 나무를 베는 데몬도 있습니다!!",
 	"atm9.quest.occultism.desc.demonsAndFamiliars.3": "특별한 버프를 주거나 당신을 위해 싸우는 멋진 친구로 알려진 &d패밀리어&r를 소환하는 방법도 있습니다! 가이드북의 &d패밀리어 의식&r을 확인해보세요!",
 	"atm9.quest.occultism.familiars.1": "패밀리어",
-	"atm9.quest.occultism.familiars.2": "&d패밀리어&r",
+	"atm9.quest.occultism.familiars.2": "&d패밀리어",
+
+
 	"atm9.quest.powah.desc.intro.1": "&9Powah&r는 기본적인 FE 생성부터 &b250k FE/t&r를 생산하는 &a리액터&r까지, &d파워&r의 생성, 저장, 전송에 관한 테크 모드입니다. Powah가 당신을 책임집니다!",
 	"atm9.quest.powah.desc.intro.2": "시작하려면 &a우라니나이트&r를 채굴하세요!",
 	"atm9.quest.powah.welcome": "&aPowah에 오신 것을 환영합니다&r!!!",
@@ -2362,6 +2348,8 @@
 	"atm9.quest.powah.spiritedReactor": "리액터 (스피리티드)",
 	"atm9.quest.powah.nitroReactor": "리액터 (니트로)",
 	"atm9.quest.powah.desc.energizingOrb": "에너자이징 오브를 사용하여 아이템을 에너자이즈하는 데 사용됩니다.",
+
+
 	"atm9.quest.productiveBees.desc.welcome.1": "프로덕티브 비즈에 오신 것을 환영합니다!",
 	"atm9.quest.productiveBees.desc.welcome.2": "이 모드를 시작하려면 먼저 벌집과 꿀병을 찾아야 합니다! 벌집을 찾아 벌들이 일을 할 시간을 조금 주세요. 가득 찼을 때 전단기로 자르면 벌집을, 유리병을 사용하면 꿀병을 얻을 수 있습니다!",
 	"atm9.quest.productiveBees.desc.welcome.3": "중요한 참고사항: 벌집이 필요한 벌 퀘스트에서는 레시피가 표시되지 않습니다. 필요한 경우 JEI에서 확인하세요!",
@@ -2815,6 +2803,8 @@
 	"atm9.quest.thermalExpansion.subt.earlyGameMiningGadget": "초기 게임 채굴 가젯",
 	"atm9.quest.thermalExpansion.subt.rfPoweredHandsaw": "RF 구동 수동 톱!",
 	"atm9.quest.thermalExpansion.subt.tier4BaseUpgrade": "티어 4 기본 업그레이드",
+
+
 	"atm9.quest.twilightForest.desc.welcome.1": "&9황혼의 숲&r에 오신 것을 환영합니다!",
 	"atm9.quest.twilightForest.desc.welcome.2": "황혼의 숲으로 가는 포털을 만들려면 2x2 구멍을 파서 물로 채우고, 그 주변을 꽃으로 둘러싼 후 다이아몬드를 던져 넣으세요.",
 	"atm9.quest.twilightForest.desc.welcome.3": "잘 되면 토르가 사인을 보낼 거예요.",
@@ -3910,6 +3900,4 @@
 	"item.kubejs.micro_universe_catalyst.tooltip": "천 개의 태양의 불로 단련된 놀라운 것",
 	"kubejs.apiary_ii.tooltip.bee_requirements": "매우 높은, 어떤, 메타터널 꿀벌이 필요합니다",
 	"kubejs.apiary_i.tooltip.bee_eater": "가끔 꿀벌을 먹어버립니다"
-
-
 }

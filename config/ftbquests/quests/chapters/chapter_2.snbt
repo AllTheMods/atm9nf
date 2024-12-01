@@ -1193,6 +1193,7 @@
 			dependencies: [
 				"4F1575600E7CD512"
 				"69E96EE9A9A2F423"
+				"7D8ECACF214324D6"
 			]
 			id: "32DC639415E45075"
 			rewards: [
@@ -2708,6 +2709,12 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "72B531D6BCCF42C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07701659AEDEDA9E"
+				table_id: 5564196992594175882L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0D368F78760AB4A4"
 				item: {
@@ -2737,15 +2744,15 @@
 					type: "loot"
 				}
 				{
-					id: "64D4016789711CD6"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7476D0F37A40883B"
 					table_id: 5564196992594175882L
 					type: "loot"
+				}
+				{
+					id: "2DFFB48A83E1E4B1"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "square"
@@ -2802,6 +2809,11 @@
 				{
 					id: "238F16C40106C676"
 					item: "rftoolsutility:flight_module"
+					type: "item"
+				}
+				{
+					id: "2470DEFD1163AB2E"
+					item: "apotheosis:sigil_of_withdrawal"
 					type: "item"
 				}
 			]
@@ -3047,13 +3059,7 @@
 				"{atm9.quest.chapter2.desc.void_forge3}"
 			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				id: "cataclysm:void_forge"
-				tag: {
-					Damage: 0
-				}
-			}
+			hide_dependent_lines: true
 			id: "7D8ECACF214324D6"
 			rewards: [
 				{
@@ -3070,41 +3076,17 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "5C9D993FFFC365FB"
-					item: {
-						Count: 1
-						id: "cataclysm:infernal_forge"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "76FA4645607619E7"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
 					}
-					match_nbt: false
-					type: "item"
 				}
-				{
-					id: "6C405D0E0582C1CD"
-					item: "cataclysm:mechanical_fusion_anvil"
-					type: "item"
-				}
-				{
-					id: "0E68CCFE6F5C9ADB"
-					item: "cataclysm:void_core"
-					type: "item"
-				}
-				{
-					id: "76FA4645607619E7"
-					item: {
-						Count: 1
-						id: "cataclysm:void_forge"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "{atm9.quest.chapter2.void_forge}"
 			x: 2.5d
 			y: 8.0d
@@ -3161,6 +3143,46 @@
 			}]
 			x: 4.0d
 			y: -5.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "1BEA0ABAEB3498DB"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "73DA31B84B4933E4"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "0A366D103D3624E7"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	title: "{atm9.chapters.6.title}"
