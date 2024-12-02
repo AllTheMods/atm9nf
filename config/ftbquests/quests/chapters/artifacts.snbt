@@ -1,0 +1,1011 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "artifacts"
+	group: "02FE661031A105D8"
+	icon: "artifacts:umbrella"
+	id: "7AF827D2D101D343"
+	images: [
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/artifacts/artifacts_head.png"
+			rotation: 0.0d
+			width: 3.1125d
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/artifacts/artifacts_hands.png"
+			rotation: 0.0d
+			width: 3.7375d
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/artifacts/artifacts_hands.png"
+			rotation: 0.0d
+			width: 3.7375d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/artifacts/artifacts_necklace.png"
+			rotation: 0.0d
+			width: 5.15d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/artifacts/artifacts_belt.png"
+			rotation: 0.0d
+			width: 2.5625d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/artifacts/artifacts_title.png"
+			rotation: 0.0d
+			width: 10.585365853658537d
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/artifacts/artifacts_cowboy.png"
+			rotation: 0.0d
+			width: 2.67203513909224d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/artifacts/artifacts_pool.png"
+			rotation: 0.0d
+			width: 2.5428571428571427d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/artifacts/artifacts_flameon.png"
+			rotation: 0.0d
+			width: 2.8474320241691844d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/artifacts/artifacts_lucky.png"
+			rotation: 0.0d
+			width: 2.0412517780938835d
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/artifacts/artifacts_hungry.png"
+			rotation: 0.0d
+			width: 2.766990291262136d
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/artifacts/feet_olyfans.png"
+			rotation: 0.0d
+			width: 2.775d
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/artifacts/feet_olyfans.png"
+			rotation: 0.0d
+			width: 2.775d
+			x: 4.0d
+			y: 4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.artifacts.desc.rootedboots.1}"]
+			id: "010607466D565B53"
+			rewards: [{
+				id: "6D6B518024477701"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			tasks: [{
+				id: "7D3BB67D10EA5245"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.rootedboots}"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.flippers.1}"]
+			id: "3EC8A0B89788D079"
+			rewards: [{
+				id: "3DBB1369A1072D6F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			tasks: [{
+				id: "302D0A2C7FE07D17"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.flippers}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.steadfastboots.1}"]
+			hide_details_until_startable: false
+			id: "2215FB0777D7029D"
+			rewards: [{
+				id: "23C8332FD1349813"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			tasks: [{
+				id: "4323420D7FF4F583"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.steadfastboots}"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.snowshoes.1}"]
+			id: "74B352457BF1541B"
+			rewards: [{
+				id: "69C1A25CAD2D3CCD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			tasks: [{
+				id: "268319B4D86AF1FA"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.runningshoes.1}"]
+			id: "4A7AEBEB87CEC274"
+			rewards: [{
+				id: "69F5A7BBB1BB1E8D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			tasks: [{
+				id: "7DABA35BECFBE1E2"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.runningshoes}"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.kittyslippers.1}"]
+			id: "122E6E7CABCB17E7"
+			rewards: [{
+				id: "3A58636456616D1C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			tasks: [{
+				id: "294D97F3514A382B"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.kittyslippers}"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.bunnyhoppers.1}"]
+			id: "5040B3D29F238BC0"
+			rewards: [{
+				id: "1E6151B989D869C6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			tasks: [{
+				id: "42875442667F74F9"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.bunnyhoppers}"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.aquadashers.1}"]
+			id: "4D3379D38237F830"
+			rewards: [{
+				id: "4510DA55C581FEC0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			tasks: [{
+				id: "61C6CFA5DB18E2DC"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.aquadashers}"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.pickaxeheater.1}"]
+			id: "62622137648A4F56"
+			rewards: [{
+				id: "18456401DB9D3025"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			tasks: [{
+				id: "3324A34D10894F27"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.pickaxeheater}"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.onionring.1}"]
+			id: "50A32AC6EDBC5854"
+			rewards: [{
+				id: "59745674479F06CA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			tasks: [{
+				id: "749900AF5B497E65"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.onionring}"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.goldenhook.1}"]
+			id: "7188DC06A28AE30E"
+			rewards: [{
+				id: "2FBB621508A8CEF0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			tasks: [{
+				id: "2F5269ABA03B3701"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.goldenhook}"
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.vampiricglove.1}"]
+			id: "73FC51144FC2DA52"
+			rewards: [{
+				id: "781ED9999B2D7532"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			tasks: [{
+				id: "308C57B7ACB795F0"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.vampiricglove}"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.pocketpiston.1}"]
+			id: "3B3BD39BA02DCA13"
+			rewards: [{
+				id: "4D40E063E2F9390D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			tasks: [{
+				id: "078D36F0A6A3F09C"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.pocketpiston}"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.firegauntlet.1}"]
+			id: "427014BDE06DE631"
+			rewards: [{
+				id: "2BF8794A6D7F9115"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			tasks: [{
+				id: "2C689F171E77768E"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.firegauntlet}"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.powerglove.1}"]
+			id: "3705D303CF423804"
+			rewards: [{
+				id: "6F62F8697F0A4955"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			tasks: [{
+				id: "58EBE55746C50688"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.powerglove}"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.feralclaws.1}"]
+			id: "6A452BFC8A967C39"
+			rewards: [{
+				id: "20016E77FF31BCAC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			tasks: [{
+				id: "01D07B21B85FB2B8"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.feralclaws}"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.diggingclaws.1}"]
+			id: "3525D5DCC3A534D9"
+			rewards: [{
+				id: "4BFDFF2C6BA31B48"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			tasks: [{
+				id: "29454B0A459EAA52"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.diggingclaws}"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.chorusbelt.1}"]
+			id: "5DE7C4FD5FA29236"
+			rewards: [{
+				id: "0380882824DC8E99"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			tasks: [{
+				id: "47974C878B90D0DC"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.chorusbelt}"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.heliumflamingo.1}"]
+			id: "589F1D502F680075"
+			rewards: [{
+				id: "00D2E9494C734CA6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			tasks: [{
+				id: "744D283E79F6357A"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.heliumflamingo}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.crystalheart.1}"]
+			id: "623796B1D7981E59"
+			rewards: [{
+				id: "3027186FA88FABC9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			tasks: [{
+				id: "54E784C8438E430A"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.crystalheart}"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.antidotevessel.1}"]
+			id: "1E40ACF3E69A4100"
+			rewards: [{
+				id: "578EFA09A59C3A5D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			tasks: [{
+				id: "6D34B89C0FD0BA2B"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.antidotevessel}"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.universalattractor.1}"]
+			id: "5EB7CE3A1DCD3E9B"
+			rewards: [{
+				id: "1817838D24DCDA78"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			tasks: [{
+				id: "1762FBFEF8647F60"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.universalattractor}"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.obsidianskull.1}"]
+			id: "4933CF4675E77D50"
+			rewards: [{
+				id: "02568992CBF08933"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			tasks: [{
+				id: "32245E61C3910041"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.obsidianskull}"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.cloudinabottle.1}"]
+			id: "436E4E3515BCCDE9"
+			rewards: [{
+				id: "5F5218AF7DDA4A5E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			tasks: [{
+				id: "3FF51BD0B49B2F93"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.cloudinabottle}"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.charmofsinking.1}"]
+			id: "221C9EDA651144BA"
+			rewards: [{
+				id: "55AA38EE9ED49639"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			tasks: [{
+				id: "28FC7C19E2A3E1B9"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.charmofsinking}"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.thornpendant.1}"]
+			id: "3446803FB59D8875"
+			rewards: [{
+				id: "5EF9D42C4CBE3023"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			tasks: [{
+				id: "0562A0A5A57E8DD8"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.thornpendant}"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.flamependant.1}"]
+			id: "27E951F4F4F6F847"
+			rewards: [{
+				id: "273EA262F2D7DECB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			tasks: [{
+				id: "609310B07E907A4F"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.flamependant}"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.shockpendant.1}"]
+			id: "70C7D92844089DEB"
+			rewards: [{
+				id: "217B91C6A932A4BB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			tasks: [{
+				id: "62EB681EEB76FCDB"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.shockpendant}"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.panicpendant.1}"]
+			id: "0E716B90E60C486B"
+			rewards: [{
+				id: "22C524CB13F399AF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			tasks: [{
+				id: "7CC5ED6BF577834C"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.panicpendant}"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.crossnecklace.1}"]
+			id: "72D6265E35814927"
+			rewards: [{
+				id: "39385ECA2FB24EB2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			tasks: [{
+				id: "5AA765DFA49DA1C9"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.crossnecklace}"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.luckyscarf.1}"]
+			id: "7503823ACDDB0491"
+			rewards: [{
+				id: "4539536E7B821D61"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.artifacts.subt.scarf}"
+			tasks: [{
+				id: "07DB486C6CAF2E13"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.luckyscarf}"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.scarfofinvisibility.1}"]
+			id: "145E7D1A88B83DDD"
+			rewards: [{
+				id: "05D654079C1B9F5C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{atm9.quest.artifacts.subt.scarf}"
+			tasks: [{
+				id: "3244560CD2EE978D"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.scarfofinvisibility}"
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.anglerhat.1}"]
+			id: "29448D08C8777425"
+			rewards: [{
+				id: "08D5119D4D25F06B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
+			tasks: [{
+				id: "7E2317305BD5F842"
+				item: "artifacts:anglers_hat"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.anglerhat}"
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.cowboyhat.1}"]
+			id: "6FBE5B5D5027B32C"
+			rewards: [{
+				id: "77D71AB2874AB8F9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
+			tasks: [{
+				id: "7EC988A7F600F860"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.cowboyhat}"
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.superstitioushat.1}"]
+			id: "5F5E43B3F51CAE9E"
+			rewards: [{
+				id: "48522341AACBFC58"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
+			tasks: [{
+				id: "1F1665E13DA82D42"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.superstitioushat}"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.villagerhat.1}"]
+			id: "73B73870B29DFAD9"
+			rewards: [{
+				id: "6EB5F3C9CF92E388"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
+			tasks: [{
+				id: "6B7D97464175DAD6"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.villagerhat}"
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.nightvisiongoggles.1}"]
+			id: "2AD78E22988A92D3"
+			rewards: [{
+				id: "7C67BEBBE04DD801"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
+			tasks: [{
+				id: "187EE75FF4C074B4"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.nightvisiongoggles}"
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.snorkel.1}"]
+			id: "16255FB20F35A9D9"
+			rewards: [{
+				id: "7C177C45CE7EF70A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
+			tasks: [{
+				id: "4E77B753AADEF6A8"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.snorkel}"
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.noveltydrinkinghat.1}"]
+			id: "3E0643EA9183CDAE"
+			rewards: [{
+				id: "62951CA67B5891DC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
+			tasks: [{
+				id: "485807A0B369A8F7"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.noveltydrinkinghat}"
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.plasticdrinkinghat.1}"]
+			id: "2607F3DC07049785"
+			rewards: [{
+				id: "4BE1052205794E92"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{atm9.quest.artifacts.subt.head}"
+			tasks: [{
+				id: "5D461DEF3DEDCA4A"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.plasticdrinkinghat}"
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.whoopiecushion.1}"]
+			id: "789AF6D0A6321945"
+			rewards: [{
+				id: "182AD6DED1A3AD09"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "{atm9.quest.artifacts.subt.unique}"
+			tasks: [{
+				id: "1572258C18AF7CED"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.whoopiecushion}"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4564B577CB4EC046"]
+			description: ["{atm9.quest.artifacts.desc.everlastingsteak.1}"]
+			id: "161A90E134592D0E"
+			rewards: [{
+				id: "052B82F5AF8D6071"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "{atm9.quest.artifacts.subt.unique}"
+			tasks: [{
+				id: "312B1C048832A594"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.everlastingsteak}"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.everlastingbeef.1}"]
+			id: "4564B577CB4EC046"
+			rewards: [{
+				id: "11871674D7964023"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "{atm9.quest.artifacts.subt.unique}"
+			tasks: [{
+				id: "5DF60B934B5F3EBB"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.everlastingbeef}"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.umbrella.1}"]
+			id: "3E1A3BC8642390B3"
+			rewards: [{
+				id: "758FA82E41A36862"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "{atm9.quest.artifacts.subt.unique}"
+			tasks: [{
+				id: "17A1084B7A6C0540"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			title: "{atm9.quest.artifacts.title.umbrella}"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			description: ["{atm9.quest.artifacts.desc.artifacts.1}"]
+			id: "5CE44C58A470E48E"
+			rewards: [{
+				id: "2E1F8B18F7C92706"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "68DC39876E14FC1B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.artifacts.title.artifacts}"
+			x: 2.5d
+			y: -7.75d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "3B6CEC2D2DA41748"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "40AAAD7874C101F2"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "41EA9328FD147F9A"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+	]
+	title: "{atm9.chapters.57.title}"
+}

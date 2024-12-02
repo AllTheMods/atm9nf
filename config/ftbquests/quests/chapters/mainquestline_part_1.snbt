@@ -1,6 +1,3 @@
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
-
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -983,8 +980,8 @@
 		{
 			dependencies: ["698A959C9E449592"]
 			description: ["{atm9.quest.chapter1.desc.redstone}"]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			id: "4DE1158931F84F22"
 			rewards: [
 				{
@@ -1620,7 +1617,7 @@
 		{
 			dependencies: ["0F3D51FFD2FE8DCB"]
 			description: ["{atm9.quest.chapter1.desc.end}"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:end_portal_frame"
 			id: "61C49BC2B384FB80"
 			rewards: [{
@@ -1654,7 +1651,7 @@
 		{
 			dependencies: ["61C49BC2B384FB80"]
 			description: ["{atm9.quest.chapter1.desc.ender_dragon}"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:dragon_head"
 			id: "6EE5BE5693E8ACE4"
 			rewards: [
@@ -1914,8 +1911,8 @@
 		{
 			dependencies: ["051E0C85E7B71CE0"]
 			description: ["{atm9.quest.chapter1.desc.archeology}"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "3ADCAD65EA6900BA"
 			rewards: [
 				{
@@ -2160,7 +2157,7 @@
 		{
 			dependencies: ["6EDAB29FBD3C60A3"]
 			description: ["{atm9.quest.chapter1.desc.warden}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6D09511D64DDC282"
 			rewards: [
 				{
@@ -2229,8 +2226,8 @@
 		{
 			dependencies: ["4A4C71C43519D5FE"]
 			description: ["{atm9.quest.chapter1.desc.wither}"]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2450,7 +2447,7 @@
 		{
 			dependencies: ["0F3D51FFD2FE8DCB"]
 			description: ["{atm9.quest.chapter1.desc.wither_skeleton}"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:wither_skeleton_skull"
 			id: "4A4C71C43519D5FE"
 			shape: "hexagon"
@@ -2869,8 +2866,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2901,6 +2898,3 @@
 	]
 	title: "{atm9.chapters.5.title}"
 }
-
-## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
-## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
