@@ -2,7 +2,6 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.recipes(allthemods => {
-
   // Yellorium
   allthemods.remove({ id: 'bigreactors:crafting/yellorium_component_to_storage' })
   allthemods.remove({ id: 'bigreactors:crafting/yellorium_ingot_to_nugget' })
@@ -73,34 +72,6 @@ ServerEvents.recipes(allthemods => {
   allthemods.remove({ id: 'extrastorage:part/storagepart_262144k_fluid' })
   allthemods.remove({ id: 'extrastorage:part/storagepart_1048576k_fluid' })
 
-
-
-  // Blue Skies tools
-  let planks = Ingredient.of('#minecraft:planks').subtract(Ingredient.of('#blue_skies:planks'))
-  allthemods.forEachRecipe({ id: /minecraft:wooden_(hoe|shovel|pickaxe|sword|axe)/ }, recipe => {
-    let json = recipe.json
-    let key = json.get('key')
-    key.add('X', planks.toJson())
-    json.add('key', key)
-    recipe.json = json
-  })
-  allthemods.forEachRecipe({ id: 'minecraft:stick' }, recipe => {
-    let json = recipe.json
-    let key = json.get('key')
-    key.add('#', planks.toJson())
-    json.add('key', key)
-    recipe.json = json
-  })
-
-  let cobble = Ingredient.of('#quark:stone_tool_materials').subtract(Ingredient.of('#blue_skies:cobblestone'))
-  allthemods.forEachRecipe({ id: /quark:tweaks\/crafting\/utility\/tools\/stone_(hoe|shovel|pickaxe|sword|axe)/ }, recipe => {
-    let json = recipe.json
-    let key = json.get('key')
-    key.add('X', cobble.toJson())
-    json.add('key', key)
-    recipe.json = json
-  })
-
   // Rechiseled Chisel / Croptopia Knife
   allthemods.remove({ id: 'croptopia:knife' })
   allthemods.shaped('croptopia:knife', [' C', 'S '], { C: '#forge:ingots/iron', S: '#forge:rods/wooden' }).noMirror().id(`allthemods:croptopia/knife`)
@@ -109,12 +80,12 @@ ServerEvents.recipes(allthemods => {
   allthemods.remove({ id: 'minecraft:cake' })
   allthemods.remove({ id: 'minecraft:beehive' })
 
-  // quark's log to stick recipe, but botania safe
+  // Quark's Log to Stick recipe, but Botania safe
   allthemods.remove({id: 'enderio:stick'})
   let logSticks = Ingredient.of('#minecraft:logs').subtract(Ingredient.of(['#botania:livingwood_logs', '#botania:dreamwood_logs']))
   allthemods.shaped('16x minecraft:stick', ['s', 's'], { s: logSticks }).id('allthemods:easy_sticks')
 
-  // duplicate abd and quark
+  // Duplicate Abd and Wuark
   let abdRemovals = [
     'absentbydesign:slab_tuff',
     'absentbydesign:stairs_tuff',
@@ -154,7 +125,6 @@ ServerEvents.recipes(allthemods => {
     E: '#forge:ender_pearls',
     H: '#alltheores:ore_hammers'
   }).id('allthemods9:enderium_dust_handblend')
-
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
