@@ -4,18 +4,7 @@
 // priority: 0
 
 ItemEvents.tooltip(allthemods => {
-  // Re-add Chemlib info to unified materials
-  let chemlibTooltips = JsonIO.read('kubejs/client_scripts/chemlibCompat.json')
-  chemlibTooltips.forEach((item, tooltips) => {
-    allthemods.addAdvanced(item, (stack, advanced, text) => {
-      text.add(1, tooltips[0])
-      if (tooltips.length > 1) {
-        text.add(2, tooltips[1])
-      }
-    })
-  })
-  
-  //AllTheModium
+  // Allthemodium
   allthemods.add('allthemodium:teleport_pad',[
     Text.of('Place the pad down in the specified Dimension'),
     Text.of('Sneak Right Click with both hands empty to teleport'),
@@ -63,7 +52,7 @@ ItemEvents.tooltip(allthemods => {
   allthemods.add('extradisks:infinite_fluid_storage_block', [Text.of('Recipe disabled').red()])
   allthemods.add('extradisks:infinite_fluid_storage_part', [Text.of('Recipe disabled').red()])
 
-  //pipes
+  // Pipez
   allthemods.add('pipez:item_pipe', [
     [Text.of('Default:'), ' ', Text.of('4'), ' ', Text.of('items/20t')],
     [Text.of('Basic:'), ' ', Text.of('8'), ' ', Text.of('items/15t')],
@@ -118,8 +107,6 @@ ItemEvents.tooltip(allthemods => {
     [Text.of('Gas:').darkGray(), ' ', Text.of('40,000').gray(), ' ', Text.of('mB/t').darkGray()],
     [Text.of('Energy:').darkGray(), ' ', Text.of('131,072').gray(), ' ', Text.of('FE/t').darkGray()],
   ])
-  
-  
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
