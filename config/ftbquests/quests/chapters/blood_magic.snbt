@@ -7,15 +7,6 @@
 	id: "004F28C5C85F467B"
 	images: [
 		{
-			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: -9.5d
-			y: -1.5d
-		}
-		{
 			height: 3.0d
 			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier1.png"
 			rotation: 0.0d
@@ -1539,7 +1530,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["42CDD69527871332"]
+			dependencies: [
+				"42CDD69527871332"
+				"396AA75774059D0B"
+			]
 			description: ["{atm9.quest.bloodMagic.desc.demonRealmLoot}"]
 			id: "2CA28551F2A5B761"
 			rewards: [{
@@ -1576,8 +1570,8 @@
 				}
 			]
 			title: "{atm9.quest.bloodMagic.reinforcedRunes}"
-			x: -11.0d
-			y: -4.0d
+			x: -9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7CA3AE708F46CEBF"]

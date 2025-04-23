@@ -272,7 +272,7 @@
 				{
 					id: "47C92745264ADA72"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 			]
 			shape: "rsquare"
@@ -482,7 +482,7 @@
 				{
 					id: "7E28A39E1447CF3A"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -514,7 +514,7 @@
 				{
 					id: "352AA0893B127276"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 			]
 			shape: "rsquare"
@@ -752,7 +752,7 @@
 				{
 					id: "32E1BD15DDDD99B6"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -951,7 +951,7 @@
 				{
 					id: "3EB65F6BBCFCDEF3"
 					type: "xp"
-					xp: 25
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -1119,7 +1119,7 @@
 				{
 					id: "2F653206D21841F4"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 			]
 			shape: "rsquare"
@@ -1180,7 +1180,7 @@
 				{
 					id: "1FB5ED3DF7B6AC7B"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 			]
 			shape: "octagon"
@@ -1684,7 +1684,7 @@
 				{
 					id: "4A3BF64ABA8BF90A"
 					type: "xp"
-					xp: 25
+					xp: 100
 				}
 			]
 			shape: "gear"
@@ -2041,7 +2041,7 @@
 				{
 					id: "7131BA97015DC647"
 					type: "xp"
-					xp: 25
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -2102,7 +2102,7 @@
 				{
 					id: "7882A83FC533B42E"
 					type: "xp"
-					xp: 25
+					xp: 100
 				}
 			]
 			shape: "rsquare"

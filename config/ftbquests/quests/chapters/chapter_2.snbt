@@ -1817,15 +1817,15 @@
 			id: "11B8C5F88DCB3BF5"
 			rewards: [
 				{
-					id: "42A7A77B539294C4"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "280C7B91E4FBF3DA"
 					table_id: 6573526605066559568L
 					type: "loot"
+				}
+				{
+					id: "20405C5267519507"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "hexagon"

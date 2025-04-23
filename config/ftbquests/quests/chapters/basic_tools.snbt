@@ -59,7 +59,7 @@
 			rotation: 0.0d
 			width: 0.5d
 			x: -3.0d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			height: 0.7d
@@ -107,7 +107,7 @@
 			rotation: 0.0d
 			width: 1.4d
 			x: -2.0d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			height: 1.0d
@@ -163,6 +163,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			description: ["{atm9.quest.tools.desc.tier1}"]
 			id: "57F47BA495B27F83"
 			rewards: [{
@@ -267,8 +268,14 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "2EE4E88FC814AFA4"
 			optional: true
+			rewards: [{
+				id: "2E6297A570F8AF57"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier1}"
 			tasks: [{
 				id: "2E885362FFDF770D"
@@ -285,8 +292,14 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "2E6D11A5F5626A6C"
 			optional: true
+			rewards: [{
+				id: "7F33BE7AA99A1CC2"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier2}"
 			tasks: [{
 				id: "4CDD283558108D8B"
@@ -303,8 +316,14 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "70ED849A2EB44DEE"
 			optional: true
+			rewards: [{
+				id: "63AD6DDCF5FF8931"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier3}"
 			tasks: [{
 				id: "41A47F38D96A9747"
@@ -321,8 +340,14 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "29A05589E96C0569"
 			optional: true
+			rewards: [{
+				id: "2C5675D8952B3200"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier4}"
 			tasks: [{
 				id: "3CAFF729F25A9850"
@@ -339,8 +364,14 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "299F56B753286D0C"
 			optional: true
+			rewards: [{
+				id: "6F5D21F2854E6315"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier5}"
 			tasks: [{
 				id: "111144CBEF06EC7F"
@@ -357,8 +388,14 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "0C31B053EAB8B2AB"
 			optional: true
+			rewards: [{
+				id: "5DC5DFC46DB8D838"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier3}"
 			tasks: [{
 				id: "30CDC00635935527"
@@ -412,8 +449,14 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "512396B331108BAF"
 			optional: true
+			rewards: [{
+				id: "70C567350A3490F4"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier5}"
 			tasks: [{
 				id: "40971F256D8743D9"
@@ -430,8 +473,14 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "51DBE688ED630DB1"
 			optional: true
+			rewards: [{
+				id: "5424F1619F159BDC"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier4}"
 			tasks: [{
 				id: "45C9F5CDC7FD3229"
@@ -448,8 +497,14 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "6A4419E89C0BA985"
 			optional: true
+			rewards: [{
+				id: "0E9A0FE7F2D3F2B0"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier6}"
 			tasks: [{
 				id: "2500C7ACDE984FBD"
@@ -517,8 +572,14 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "58DDD32F849940A0"
 			optional: true
+			rewards: [{
+				id: "11A37FBAD9761976"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier6}"
 			tasks: [{
 				id: "3994D5448E03DF6B"
@@ -566,15 +627,21 @@
 						]
 					}
 				}
-				title: "{atm9.quest.tools.6pick4}"
+				title: "{atm9.quest.tools.6pick3}"
 				type: "item"
 			}]
 			x: 1.0d
 			y: -2.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "518105318E1C38B2"
 			optional: true
+			rewards: [{
+				id: "0C8C5BE213F6275A"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier1}"
 			tasks: [{
 				id: "5E5533CDA9CA9C18"
@@ -591,8 +658,14 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "67F992E5672671CD"
 			optional: true
+			rewards: [{
+				id: "2492484F0B542FFD"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier5}"
 			tasks: [{
 				id: "31D48DF4CE59F793"
@@ -609,8 +682,14 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "768B5E3633A76ED0"
 			optional: true
+			rewards: [{
+				id: "442A8A2C2FBA94D1"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier5}"
 			tasks: [{
 				id: "1162C2EBA5671A9E"
@@ -627,8 +706,14 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "2AD4FE4B9DB741CC"
 			optional: true
+			rewards: [{
+				id: "5FEECDBECADB433A"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier4}"
 			tasks: [{
 				id: "6996A70A79D41BC2"
@@ -679,8 +764,14 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "7252331E9CD600B9"
 			optional: true
+			rewards: [{
+				id: "2172EA0C4CFC4126"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier5}"
 			tasks: [{
 				id: "586B3E271C377AA3"
@@ -697,8 +788,14 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "4F68F142D9DE569A"
 			optional: true
+			rewards: [{
+				id: "4C46A37990259F3F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier3}"
 			tasks: [{
 				id: "35227D0C9A4DC669"
@@ -713,8 +810,14 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "3B88D58B11B5DC78"
 			optional: true
+			rewards: [{
+				id: "36BF3BBA127B5F0C"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier4}"
 			tasks: [
 				{
@@ -756,6 +859,7 @@
 		}
 		{
 			description: ["{atm9.quest.tools.desc.tool}"]
+			hide_dependent_lines: true
 			id: "5151CDD8FCDE7A07"
 			rewards: [{
 				count: 16
@@ -775,8 +879,14 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "0583862ED0114442"
 			optional: true
+			rewards: [{
+				id: "2785617995E17C2A"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage4}"
 			tasks: [{
 				id: "77C3BFB8C7F805CF"
@@ -793,8 +903,14 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "54D3D6806C1F33F3"
 			optional: true
+			rewards: [{
+				id: "27C1A842BB902913"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage5}"
 			tasks: [{
 				id: "13AFEBED5C116FC8"
@@ -811,8 +927,14 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "2B9AF0D6ED8BA628"
 			optional: true
+			rewards: [{
+				id: "27A598398926ED43"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage6}"
 			tasks: [{
 				id: "1C1B919636DDC925"
@@ -829,8 +951,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "55A9EB63F4964FCF"
 			optional: true
+			rewards: [{
+				id: "4398D6D064284D8C"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage7}"
 			tasks: [{
 				id: "3B9E51CF30228269"
@@ -847,8 +975,14 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "36A3ECD4F6CA2732"
 			optional: true
+			rewards: [{
+				id: "4991FD004ACC8BC8"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage8}"
 			tasks: [{
 				id: "5CDEF9E938811FC8"
@@ -865,8 +999,14 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "3BF1900346772703"
 			optional: true
+			rewards: [{
+				id: "78BD8875BD65A78B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier2}"
 			tasks: [{
 				id: "6D6CF45BE39E11BB"
@@ -883,8 +1023,14 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "077A214422FEFF02"
 			optional: true
+			rewards: [{
+				id: "7945938C8827FBB8"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage6_4}"
 			tasks: [{
 				id: "53CFFE444921CB11"
@@ -901,8 +1047,14 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "2664388EBA1E8F90"
 			optional: true
+			rewards: [{
+				id: "242233FD0F74AC31"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage8}"
 			tasks: [{
 				id: "41D9CCC7AD3283EE"
@@ -919,8 +1071,14 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "7F076FC4F2187692"
 			optional: true
+			rewards: [{
+				id: "3CC010CB45768D3C"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage8}"
 			tasks: [{
 				id: "49620BB635D10CF5"
@@ -937,8 +1095,14 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "38C76A58EBED6C37"
 			optional: true
+			rewards: [{
+				id: "2F8912F971E9CC4B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage7_5}"
 			tasks: [{
 				id: "163BDCDFC0B39FB8"
@@ -955,8 +1119,14 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "7EDF2CC08FC774F9"
 			optional: true
+			rewards: [{
+				id: "4B742B7EC0C4EE85"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage10}"
 			tasks: [{
 				id: "279E99110C6542B0"
@@ -969,12 +1139,18 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: -0.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "680ECE3D8DCDC515"
 			optional: true
+			rewards: [{
+				id: "453E9C63E1E52F58"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage13}"
 			tasks: [{
 				id: "1794270850D4F05D"
@@ -987,24 +1163,36 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.0d
+			x: -0.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "6856A5572B239D10"
 			optional: true
+			rewards: [{
+				id: "6023438134B695DB"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage16}"
 			tasks: [{
 				id: "3D0DC6C4794CE2BF"
 				item: "allthemodium:allthemodium_sword"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 10.5d
+			x: -1.0d
+			y: 11.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "4DCEC4B97E24B6F1"
 			optional: true
+			rewards: [{
+				id: "2E7052233B49827B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage17}"
 			tasks: [{
 				id: "75022D8AF7DB6369"
@@ -1017,12 +1205,18 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 11.0d
+			x: -0.5d
+			y: 11.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "2007EF64F0406090"
 			optional: true
+			rewards: [{
+				id: "0B379CB4BBBF54D5"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage24}"
 			tasks: [{
 				id: "60ECBCB782EF3B95"
@@ -1030,11 +1224,17 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "5A6670364ADE0858"
 			optional: true
+			rewards: [{
+				id: "33F03A63E6BD350F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage29}"
 			tasks: [{
 				id: "5B39CDF9A0FCC084"
@@ -1042,11 +1242,17 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "47AED7219704EB3E"
 			optional: true
+			rewards: [{
+				id: "13883B0BC2BD42D6"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage22}"
 			tasks: [{
 				id: "7D7CDB9137482E36"
@@ -1054,11 +1260,17 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "744AC6BD82FC2DEE"
 			optional: true
+			rewards: [{
+				id: "1EF87F6E75A2CB98"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage28}"
 			tasks: [{
 				id: "3D392B67BAAED4D0"
@@ -1066,11 +1278,17 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "2F90CA5DF9225209"
 			optional: true
+			rewards: [{
+				id: "3364AEF061A83B52"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage12}"
 			tasks: [{
 				id: "33868BAD67921CD5"
@@ -1083,12 +1301,18 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "4C8C56F960D92E9D"
 			optional: true
+			rewards: [{
+				id: "128006F8A04CC28D"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage47}"
 			tasks: [{
 				id: "571788A3D48695E9"
@@ -1096,11 +1320,17 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 13.5d
+			y: 14.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "6EE68EEFE388CF8A"
 			optional: true
+			rewards: [{
+				id: "79B386CBA2EBD47E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage4}"
 			tasks: [{
 				id: "477AAD8E6A0BB944"
@@ -1117,8 +1347,14 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "609D03E335CF32E2"
 			optional: true
+			rewards: [{
+				id: "14777EBB6BCF0E0F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.tier6}"
 			tasks: [{
 				id: "0C40B254FF7C7636"
@@ -1153,8 +1389,14 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "2647B2830F8F022F"
 			optional: true
+			rewards: [{
+				id: "7FD61D2044CA7E70"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage6}"
 			tasks: [{
 				id: "2FE284174F29CEE6"
@@ -1201,8 +1443,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "2ED7878B7919AF6D"
 			optional: true
+			rewards: [{
+				id: "2AB3D9C946B7F6E0"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage6}"
 			tasks: [{
 				id: "3A1AEA99F9234662"
@@ -1249,8 +1497,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "191302E7A2670477"
 			optional: true
+			rewards: [{
+				id: "12E16A2587A1AD19"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage7}"
 			tasks: [{
 				id: "5B45FF3A6839E957"
@@ -1316,49 +1570,38 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "0D7FA4B9120DDE0E"
 			optional: true
+			rewards: [{
+				id: "60ADAFEE828E0570"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage9}"
 			tasks: [{
-				id: "130C8A47B1A57C48"
+				id: "31CEDD9C64496CB0"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "naturesaura:depth_sword"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "blue_skies:diopside_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "naturesaura:depth_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "sgjourney:naquadah_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
+						Damage: 0
 					}
 				}
-				title: "{atm9.quest.tools.9sword2}"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "782B6B849D28C9D8"
 			optional: true
+			rewards: [{
+				id: "69AD87A3133DDF93"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage9}"
 			tasks: [{
 				id: "394F9275CEC0728C"
@@ -1371,12 +1614,18 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 8.5d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "4FF76F6A2CE2A8D3"
 			optional: true
+			rewards: [{
+				id: "1657A699AF400EC6"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage12}"
 			tasks: [{
 				id: "68E94040D1688C61"
@@ -1412,12 +1661,18 @@
 				title: "{atm9.quest.tools.12sword2}"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.5d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "6F1A9A95F40F554D"
 			optional: true
+			rewards: [{
+				id: "4AD6FB4729111756"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage12}"
 			tasks: [{
 				id: "76F19A737177006F"
@@ -1430,12 +1685,18 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 9.5d
+			x: -1.0d
+			y: 10.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "045EFB9428618609"
 			optional: true
+			rewards: [{
+				id: "3CA0E3C9252A6605"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage5}"
 			tasks: [{
 				id: "3F8266EDF8422629"
@@ -1452,8 +1713,14 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["5151CDD8FCDE7A07"]
 			id: "7F1BBD859FDC9B70"
 			optional: true
+			rewards: [{
+				id: "436FC2BDDABC3104"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{atm9.quest.tools.subt.damage8}"
 			tasks: [{
 				id: "0D186CD03EC5A67B"
@@ -1506,8 +1773,250 @@
 					type: "checkmark"
 				}
 			]
-			x: 2.0d
+			x: -3.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["5151CDD8FCDE7A07"]
+			id: "5F4F3C7423810961"
+			optional: true
+			rewards: [{
+				id: "3E7DE1B9647F2464"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.tools.subt.damage9}"
+			tasks: [{
+				id: "30D8142365C3DA96"
+				item: {
+					Count: 1
+					id: "sgjourney:naquadah_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5151CDD8FCDE7A07"]
+			id: "6B08AB169C65BE74"
+			optional: true
+			rewards: [{
+				id: "04CA795EEFB87195"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.tools.subt.tier6}"
+			tasks: [{
+				id: "7FBACF81D2234141"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										energy: {
+											energy: 0
+										}
+										module_host: {
+											modules: [ ]
+											properties: {
+												mining_speed: {
+													hud: 1b
+													value: 1.0d
+												}
+											}
+											provider_id: [I;
+												-1669639729
+												-788968515
+												-1169927093
+												-504549413
+											]
+										}
+									}
+								}
+								id: "draconicevolution:draconic_pickaxe"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										energy: {
+											energy: 0
+										}
+										module_host: {
+											modules: [ ]
+											properties: {
+												mining_speed: {
+													hud: 1b
+													value: 1.0d
+												}
+											}
+											provider_id: [I;
+												-788827675
+												-2049356530
+												-1335986251
+												-2107324286
+											]
+										}
+									}
+								}
+								id: "draconicevolution:wyvern_pickaxe"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										energy: {
+											energy: 0
+										}
+										module_host: {
+											modules: [ ]
+											properties: {
+												mining_speed: {
+													hud: 1b
+													value: 1.0d
+												}
+											}
+											provider_id: [I;
+												-163616455
+												20987965
+												-1441734187
+												-924794958
+											]
+										}
+									}
+								}
+								id: "draconicevolution:chaotic_pickaxe"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.tools.6pick4}"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5151CDD8FCDE7A07"]
+			id: "729685EE95D73F7E"
+			optional: true
+			rewards: [{
+				id: "025757D21B030A33"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.tools.subt.damage7_88}"
+			tasks: [{
+				id: "4DEBE72D93E3A525"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									495093013
+									-1596701634
+									-1868373969
+									278900247
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_sword"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5151CDD8FCDE7A07"]
+			id: "46FA655B9348BAF3"
+			optional: true
+			rewards: [{
+				id: "2A667E50426A021D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.tools.subt.damage8_75}"
+			tasks: [{
+				id: "6C337D0A8DC9A128"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									575565965
+									-24885058
+									-2034820109
+									-1114254655
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_sword"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5151CDD8FCDE7A07"]
+			id: "2798FC4D0CB5AE0C"
+			optional: true
+			rewards: [{
+				id: "7227DB8E4BB492AD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.tools.subt.damage17_5}"
+			tasks: [{
+				id: "37020AC5E14D68C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-1684334369
+									-326481430
+									-1736795761
+									1005784777
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_sword"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
 		}
 	]
 	title: "{atm9.chapters.52.title}"

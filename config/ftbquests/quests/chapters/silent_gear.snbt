@@ -30,6 +30,13 @@
 	quests: [
 		{
 			description: ["{atm9.quest.SG.desc.SG}"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "52EB902E76829EBB"
 			rewards: [{
 				id: "383D184AE6F5236A"
@@ -40,9 +47,16 @@
 			size: 1.5d
 			subtitle: "{atm9.quest.SG.subt.SG}"
 			tasks: [{
-				id: "2639F0B573ACEBB6"
-				title: "Silent Gear Weapons, Tools and Armor"
-				type: "checkmark"
+				id: "5D19C3F8ABE8B8A1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:tools"
+					}
+				}
+				title: "{atm9.quest.tools.tool}"
+				type: "item"
 			}]
 			title: "{atm9.quest.SG.SG}"
 			x: -7.25d
@@ -1446,7 +1460,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -9.0d
+			x: -8.5d
 			y: 0.0d
 		}
 	]
