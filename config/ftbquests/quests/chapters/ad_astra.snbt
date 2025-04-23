@@ -14,7 +14,6 @@
 	images: [
 		{
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -60,6 +59,14 @@
 			width: 2.0d
 			x: 5.5d
 			y: 4.0d
+		}
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/mercury.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 10.0d
 		}
 	]
 	order_index: 0

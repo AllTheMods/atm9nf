@@ -201,9 +201,9 @@
 			id: "5A0305BB1F8EA932"
 			progression_mode: "flexible"
 			rewards: [{
-				id: "301B954DFF53489C"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "68C3BD20AC57AE92"
+				type: "xp"
+				xp: 100
 			}]
 			shape: "octagon"
 			size: 1.3d
@@ -222,9 +222,9 @@
 			description: ["{atm9.quest.affixes.desc.salvaging_table}"]
 			id: "1A507E77BF750F60"
 			rewards: [{
-				id: "7C325B254D2F9549"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "2AB7F477F41C4448"
+				type: "xp"
+				xp: 100
 			}]
 			shape: "hexagon"
 			size: 1.3d
@@ -639,8 +639,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -1.5d
-			y: -0.5d
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "{atm9.chapters.8.title}"

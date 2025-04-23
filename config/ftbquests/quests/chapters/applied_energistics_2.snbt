@@ -7,22 +7,20 @@
 	id: "07210DDF872160BA"
 	images: [
 		{
-			height: 0.5d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			height: 0.3d
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
-			width: 0.5d
+			width: 0.3d
 			x: 3.0d
-			y: 4.25d
+			y: 2.9d
 		}
 		{
-			height: 0.5d
-			hover: ["{atm9.quest.ae2.img.star}"]
+			height: 0.3d
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
-			width: 0.5d
+			width: 0.3d
 			x: 5.0d
-			y: 5.5d
+			y: 3.9d
 		}
 	]
 	order_index: 1

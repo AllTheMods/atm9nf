@@ -27,15 +27,15 @@
 					type: "item"
 				}
 				{
-					id: "0205D27EF9929F30"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2139CB369B6057CD"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "16CB811B9F7D9687"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -85,15 +85,15 @@
 					type: "item"
 				}
 				{
-					id: "459B4DDA26AC0FFC"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3E63128D811B9171"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "0968C76005063BB9"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -134,15 +134,15 @@
 					type: "item"
 				}
 				{
-					id: "2DC06917102E6563"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0E328B594DAC6713"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "1F59D70EBCCC96D0"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -175,12 +175,19 @@
 			description: ["{atm9.quest.allthemodium.desc.furnace}"]
 			hide_dependency_lines: false
 			id: "2CC97CF32D9C017B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C0169930F748A7F"
-				table_id: 5564196992594175882L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C0169930F748A7F"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					id: "55C130B1261246D6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -219,15 +226,15 @@
 			id: "29637BD992599915"
 			rewards: [
 				{
-					id: "28AB1CC409C9BADB"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "008EBE6E9E5262F3"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "18E047C0B97CEBFE"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "square"
@@ -349,11 +356,6 @@
 			id: "731686C758AD9A99"
 			rewards: [
 				{
-					id: "4D04379836E29120"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "0D061D49519CE0B4"
 					item: {
 						Count: 1
@@ -363,6 +365,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "44201C8F94E849BC"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "rsquare"
@@ -381,15 +388,15 @@
 			id: "7F3B96033AB7A21E"
 			rewards: [
 				{
-					id: "51777CA9A13AAD35"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2FD4422A73C37850"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "5DECD417EBD9F45A"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "heart"
@@ -406,15 +413,15 @@
 			id: "15D56588634665FA"
 			rewards: [
 				{
-					id: "40F8666A439FDC16"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0186D353D38596DC"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "2154A6F0654D2079"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "heart"
@@ -434,15 +441,15 @@
 			id: "30E6C6825D78B5F1"
 			rewards: [
 				{
-					id: "407C0224BB0CF2C7"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3C3FBA11E9666529"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "45F16F2DCB6449A7"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"
@@ -499,15 +506,15 @@
 			id: "3C322474D2F2BA99"
 			rewards: [
 				{
-					id: "0B4E3EEE5A9DB68C"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "57F29BA9DE0EB0FB"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "67567BF9933C944A"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "square"
@@ -591,15 +598,15 @@
 			id: "5D8A3491889F2C4E"
 			rewards: [
 				{
-					id: "15475C2EF8192338"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "736E172147AD8566"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "4D4D35462A3312BD"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -920,15 +927,15 @@
 			id: "28260B53A3F9E57D"
 			rewards: [
 				{
-					id: "47EA865134159DDB"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3924B2C4B6CDDFDA"
 					table_id: 5564196992594175882L
 					type: "loot"
+				}
+				{
+					id: "0C72849121316DA0"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "square"
@@ -1160,15 +1167,15 @@
 			id: "553DD7CBD4351A71"
 			rewards: [
 				{
-					id: "45B79CB58D2BE6BB"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7A1B7905F069FDE2"
 					table_id: 5564196992594175882L
 					type: "loot"
+				}
+				{
+					id: "294ACC619ADF5ABA"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"

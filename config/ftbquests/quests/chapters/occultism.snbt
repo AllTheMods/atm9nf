@@ -238,7 +238,7 @@
 			y: 5.5d
 		}
 	]
-	order_index: 8
+	order_index: 9
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -352,7 +352,7 @@
 				{
 					id: "70852D7A479998AA"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			shape: "square"
@@ -392,15 +392,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "70EE0C205B5B9BAC"
-					type: "xp"
-					xp: 50
-				}
-				{
 					exclude_from_claim_all: true
 					id: "156CCC976E663623"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "19DA77080CEAE6B4"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -444,6 +444,11 @@
 			]
 			hide_dependency_lines: true
 			id: "6581D4AF1A6DE230"
+			rewards: [{
+				id: "45E7A9811FBB1FD6"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -493,6 +498,11 @@
 			hide_dependency_lines: true
 			id: "1B5177A774FCEF64"
 			min_width: 350
+			rewards: [{
+				id: "5B23F190FAC05F3C"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -535,6 +545,11 @@
 			]
 			hide_dependency_lines: true
 			id: "7F09F8F98C13F11B"
+			rewards: [{
+				id: "0960D7F9A6705EED"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -563,9 +578,9 @@
 			hide_dependency_lines: true
 			id: "0B3EA604C5172D98"
 			rewards: [{
-				id: "536B2ACB55CC979E"
+				id: "4B461EE2471139FB"
 				type: "xp"
-				xp: 20
+				xp: 10
 			}]
 			shape: "diamond"
 			tasks: [
@@ -618,7 +633,7 @@
 			rewards: [{
 				id: "0BAC09BCF9644834"
 				type: "xp"
-				xp: 50
+				xp: 100
 			}]
 			shape: "diamond"
 			size: 2.0d
@@ -667,7 +682,7 @@
 			rewards: [{
 				id: "1B9CD287CB41E0E8"
 				type: "xp"
-				xp: 25
+				xp: 50
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -738,17 +753,15 @@
 		{
 			dependencies: ["1DE0F289821F55D1"]
 			description: [
-				"{atm9.quest.occultism.desc.soulGemFeatures.1}"
-				""
-				"{atm9.quest.occultism.desc.soulGemFeatures.2}"
-				""
+				"{atm9.quest.occultism.desc.soulGemFeatures.1}\\n"
+				"{atm9.quest.occultism.desc.soulGemFeatures.2}\\n"
 				"{atm9.quest.occultism.desc.soulGemFeatures.3}"
 			]
 			id: "08B1A64B01A8A604"
 			rewards: [{
 				id: "31005015E3D07048"
 				type: "xp"
-				xp: 25
+				xp: 50
 			}]
 			shape: "diamond"
 			tasks: [
@@ -806,15 +819,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "4E321912FBCD641F"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "52274E201F793220"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "1588A15C93BB0A9C"
+					type: "xp"
+					xp: 50
 				}
 			]
 			subtitle: "{atm9.quest.occultism.subt.ripBetsy}"
@@ -840,15 +853,15 @@
 			id: "666EA8B8F13EB292"
 			rewards: [
 				{
-					id: "7D6E46BD52D37617"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "017A49F5F0062DCA"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "031CF3F65CA21FE2"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -884,7 +897,7 @@
 				{
 					id: "66AF59413C4ADCF3"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -912,15 +925,15 @@
 			id: "686AEC3EF1140D15"
 			rewards: [
 				{
-					id: "534ED82AE3739E75"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0905ED561E579042"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "522E921A16094C05"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "square"
@@ -961,9 +974,9 @@
 			id: "33106E24A3B5DDD8"
 			min_width: 450
 			rewards: [{
-				id: "5D7A367FA795C5B3"
+				id: "02A1C2264A290B60"
 				type: "xp"
-				xp: 25
+				xp: 100
 			}]
 			tasks: [{
 				id: "2C341B16967645C9"
@@ -984,15 +997,15 @@
 			id: "57282D7E31EE61EE"
 			rewards: [
 				{
-					id: "725142351E7457CF"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "61301974F1DCE7C4"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "57D2921068C58EEC"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1025,15 +1038,15 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					id: "0B9447953960187F"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4381289734981296"
 					table_id: 5564196992594175882L
 					type: "loot"
+				}
+				{
+					id: "1A822BA674A56271"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "square"
@@ -1088,6 +1101,11 @@
 			]
 			id: "172D2A634E849562"
 			min_width: 350
+			rewards: [{
+				id: "4A6C38F0BABF437B"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [
@@ -1174,9 +1192,9 @@
 					type: "loot"
 				}
 				{
-					id: "3FFC1652AA52C6AE"
+					id: "16C36EB782BC807C"
 					type: "xp"
-					xp: 50
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -1233,7 +1251,7 @@
 				{
 					id: "1AEF7C3C027531C5"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -1282,6 +1300,11 @@
 				"{atm9.quest.occultism.desc.divinationRods.4}"
 			]
 			id: "78ECC28DD4BA9696"
+			rewards: [{
+				id: "6A584792DC613CD3"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "13EAA435B27EA29D"
 				item: {
@@ -1307,15 +1330,15 @@
 			id: "5831B3192C0E8C56"
 			rewards: [
 				{
-					id: "3CC49302B482FAE5"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "52721A6614C9C818"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "7F6E219CFDB0426F"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [

@@ -85,7 +85,7 @@ ServerEvents.recipes(allthemods => {
   let logSticks = Ingredient.of('#minecraft:logs').subtract(Ingredient.of(['#botania:livingwood_logs', '#botania:dreamwood_logs']))
   allthemods.shaped('16x minecraft:stick', ['s', 's'], { s: logSticks }).id('allthemods:easy_sticks')
 
-  // Duplicate Abd and Wuark
+  // Duplicate Abd and Quark
   let abdRemovals = [
     'absentbydesign:slab_tuff',
     'absentbydesign:stairs_tuff',
@@ -124,7 +124,7 @@ ServerEvents.recipes(allthemods => {
     D: '#forge:dusts/diamond',
     E: '#forge:ender_pearls',
     H: '#alltheores:ore_hammers'
-  }).id('allthemods9:enderium_dust_handblend')
+  }).id('kubejs:alltheores/enderium_dust_handblend')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.

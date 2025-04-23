@@ -918,6 +918,7 @@
 			description: ["{atm9.quest.modular_router.desc.creative_module}"]
 			icon: "modularrouters:creative_module"
 			id: "71FDF8CD953E46FC"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "166D6D4C252D5E89"

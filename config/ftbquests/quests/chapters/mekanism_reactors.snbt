@@ -192,7 +192,6 @@
 		}
 		{
 			height: 0.3d
-			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -732,15 +731,15 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					id: "414A6E5BDC1A3B1E"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "20492956C6AD544F"
 					table_id: 8364958827326577211L
 					type: "loot"
+				}
+				{
+					id: "2E99E07B0C48F6E1"
+					type: "xp"
+					xp: 25
 				}
 			]
 			subtitle: "{atm9.quest.mekanismReactors.subt.quickRecap}"

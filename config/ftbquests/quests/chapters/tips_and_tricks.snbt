@@ -71,7 +71,7 @@
 			}]
 			title: "{atm9.quest.tips.shrink}"
 			x: 1.5d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			description: ["{atm9.quest.tips.desc.sleep}"]
@@ -336,7 +336,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -347,6 +347,12 @@
 				"2A2E3D020B1F5126"
 				"05F186C95510BD4B"
 				"0060BCEDABC9BE2E"
+				"70B6C9409AE69284"
+				"3FC002E5A6C08DCC"
+				"51CEE80605BFF40C"
+				"437AF6A8A63413A8"
+				"600CFCF3612AEE9A"
+				"0790D3BB481162A6"
 			]
 			hide_dependency_lines: true
 			id: "0F8F37D7E12078F5"
@@ -427,7 +433,7 @@
 			}]
 			title: "{atm9.quest.tips.magnet}"
 			x: 1.0d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			description: ["{atm9.quest.tips.desc.compass}"]
@@ -457,7 +463,7 @@
 			}]
 			title: "{atm9.quest.tips.compass}"
 			x: 1.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			description: ["{atm9.quest.tips.desc.mobs}"]
@@ -561,8 +567,8 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.tips.powah}"
-			x: 5.5d
-			y: 6.0d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			description: ["{atm9.quest.tips.desc.mahou}"]
@@ -592,8 +598,8 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.tips.mahou}"
-			x: 5.0d
-			y: 5.5d
+			x: 1.0d
+			y: 9.0d
 		}
 		{
 			description: ["{atm9.quest.tips.desc.spawner}"]
@@ -612,8 +618,8 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.tips.spawner}"
-			x: 5.5d
-			y: 5.0d
+			x: 0.5d
+			y: 8.5d
 		}
 		{
 			can_repeat: false
